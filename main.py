@@ -16,6 +16,5 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY_PERSONA"))
 personas = make_persona(client, n=2)
 
 # 結果表示
-for persona in personas['personas']:
-    print(json.dumps(persona['id'], ensure_ascii=False, indent=2))
-
+for persona in personas["personas"]:
+    print(json.dumps(persona["id"], ensure_ascii=False, indent=2))

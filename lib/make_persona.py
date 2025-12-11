@@ -1,9 +1,11 @@
 import json
+
 from openai import OpenAI
+
 from .log import logger
 
-def make_persona(client: OpenAI, n: int = 5):
 
+def make_persona(client: OpenAI, n: int = 5):
     SYSTEM_PROMPT = """あなたは医療の現場理解に長けたプロダクトリサーチャーです。
     出力は必ずJSON配列のみ（前後に説明文なし）。各要素はコンパクトに。"""
 

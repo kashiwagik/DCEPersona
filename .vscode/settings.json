@@ -1,0 +1,17 @@
+{
+  "python.defaultInterpreterPath": "./.venv/Scripts/python.exe",
+
+    // Ruffをデフォルトのフォーマッターに
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "explicit",
+            "source.organizeImports.ruff": "explicit"
+        }
+    },
+
+    // 旧来のpylint/flake8/blackを無効化（併用しない場合）
+    "python.linting.enabled": false
+}
+

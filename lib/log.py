@@ -41,7 +41,7 @@ def setup_logger(name: str = __name__, log_dir: str = "logs") -> logging.Logger:
     # フォーマッターを設定（日付・時刻、レベル、メッセージ）
     formatter = logging.Formatter(
         "%(asctime)s - %(levelname)s - %(name)s - %(message)s",
-        datefmt="%Y-%m-%d %H:%M:%S"
+        datefmt="%Y-%m-%d %H:%M:%S",
     )
     file_handler.setFormatter(formatter)
     console_handler.setFormatter(formatter)

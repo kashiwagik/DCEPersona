@@ -7,4 +7,32 @@ requires-python = ">=3.13"
 dependencies = [
     "openai>=2.6.1",
     "python-dotenv>=1.2.1",
+    "ruff>=0.14.8",
 ]
+
+[tool.ruff]
+line-length = 128
+target-version = "py312"
+
+# 自動修正（ruff check --fix）で有効化されるルール
+fix = true
+
+# 無視したいルール例（必要なければそのままでOK）
+lint.ignore = [
+    "E501",  # line length（Black を使うなら無視する人が多い）
+]
+
+# 使用するルールセット（必要に応じて追加）
+lint.select = [
+    "E",  # pycodestyle
+    "F",  # Pyflakes
+    "W",  # Warning
+    "B",  # Bugbear
+    "C90", # mccabe complexity
+]
+
+[tool.ruff.format]
+# Black 互換の formatter を使う
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
