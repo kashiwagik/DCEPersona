@@ -17,7 +17,7 @@ def make_persona(client: OpenAI, n: int = 5):
     {{
         "personas": [ ... ]
     }}
-        
+
     1人分の各要素のスキーマは以下の通り
     {{
         "id": "N###",                // 連番 N001..N100
