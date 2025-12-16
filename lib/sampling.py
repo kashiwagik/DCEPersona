@@ -308,6 +308,41 @@ def generate_synthetic_nurse_data(n=N, seed=SEED):
     return df
 
 
+def load_nurse_data_from_excel(
+    file_path: str,
+    sheet_name: str | int = 0,
+    n: int | None = None,
+    skip_rows: int = 0,
+) -> pd.DataFrame:
+    """
+    Excelファイルから看護師属性データを読み込む
+
+    Args:
+        file_path: Excelファイルのパス
+        sheet_name: シート名またはインデックス（デフォルト: 0 = 最初のシート）
+        n: 読み込む行数（Noneの場合は全行）
+        skip_rows: スキップする先頭行数（ヘッダー行は自動認識）
+
+    Returns:
+        pd.DataFrame: 看護師属性データ
+            generate_synthetic_nurse_dataと同じカラム形式を想定:
+            - 性別, 年齢, 都道府県, 都市サイズ, 居住形態,
+            - 住宅ローン有無, 婚姻, 子ども数, 末子年齢
+
+    Raises:
+        FileNotFoundError: ファイルが見つからない場合
+        ValueError: 必要なカラムが不足している場合
+    """
+    df = pd.read_excel(
+        file_path,
+        sheet_name=sheet_name,
+        skiprows=skip_rows,
+        nrows=n,
+    )
+
+    return df
+
+
 # 実行例
 if __name__ == "__main__":
     df = generate_synthetic_nurse_data(n=1000, seed=42)
