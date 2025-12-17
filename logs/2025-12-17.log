@@ -1,0 +1,13 @@
+2025-12-17 20:15:33 - INFO - lib.log - Loaded config: nurse_persona_v1
+2025-12-17 20:15:33 - INFO - lib.log - Using LLM: openai (gpt-4o-mini)
+2025-12-17 20:15:33 - INFO - lib.log - Generating base data: n=10, seed=42
+2025-12-17 20:15:33 - INFO - lib.log - Generating persona id=1
+2025-12-17 20:15:33 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-17 20:15:44 - INFO - lib.log - OpenAI JSON response received: tokens=2471
+2025-12-17 20:15:44 - INFO - lib.log - Generated persona id=1: 外科系
+2025-12-17 20:15:44 - INFO - lib.log - Generating persona id=2
+2025-12-17 20:15:44 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-17 20:15:54 - INFO - lib.log - OpenAI JSON response received: tokens=2492
+2025-12-17 20:15:54 - INFO - lib.log - Generated persona id=2: 内科系
+2025-12-17 20:15:54 - INFO - lib.log - Generating persona id=3
+2025-12-17 20:15:54 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
