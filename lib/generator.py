@@ -104,6 +104,66 @@ class PersonaGenerator:
 
         return results
 
+    def generate_batch_from_excel(
+        self,
+        file_path: str,
+        sheet_name: str | int = 0,
+        n: int | None = None,
+        skip_rows: int = 0,
+        start_id: int = 1,
+        on_progress: Callable[[int, int, dict], None] | None = None,
+    ) -> list[dict[str, Any]]:
+        """
+        Excelファイルから属性を読み込んでペルソナを生成
+
+        Args:
+            file_path: Excelファイルのパス
+            sheet_name: シート名またはインデックス（デフォルト: 0）
+            n: 読み込む行数（Noneの場合は全行）
+            skip_rows: スキップする先頭行数
+            start_id: 開始ID
+            on_progress: 進捗コールバック (current, total, persona) -> None
+
+        Returns:
+            list[dict]: ペルソナのリスト
+        """
+        from lib.sampling import load_nurse_data_from_excel
+
+        # Excelからデータを読み込む
+        logger.info("Loading base data from Excel: %s", file_path)
+        base_data = load_nurse_data_from_excel(
+            file_path=file_path,
+            sheet_name=sheet_name,
+            n=n,
+            skip_rows=skip_rows,
+        )
+
+        total = len(base_data)
+        logger.info("Loaded %d rows from Excel", total)
+
+        results = []
+        for i, row in base_data.iterrows():
+            persona_id = start_id + i
+            base_attrs = row.to_dict()
+
+            try:
+                persona = self.generate_one(persona_id, base_attrs)
+                results.append(persona)
+
+                if on_progress:
+                    on_progress(i + 1, total, persona)
+
+            except Exception as e:
+                logger.error("Failed to generate persona id=%d: %s", persona_id, e)
+                # エラー時は基本属性のみで記録
+                error_persona = {"id": persona_id, **base_attrs, "_error": str(e)}
+                results.append(error_persona)
+
+                if on_progress:
+                    on_progress(i + 1, total, error_persona)
+
+        return results
+
     def _build_user_prompt(self, persona_id: int, base_attributes: dict[str, Any]) -> str:
         """ユーザープロンプトを構築"""
         # 基本属性を文字列化

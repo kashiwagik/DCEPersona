@@ -82,6 +82,7 @@ class OpenAIClient(LLMClient):
             "total_tokens": response.usage.total_tokens if response.usage else 0,
         }
 
-        logger.info("OpenAI JSON response received: tokens=%d", usage["total_tokens"])
+        # logger.info("OpenAI JSON response received: tokens=%d", usage["total_tokens"])
+        logger.info("OpenAI usage: %s", usage)
 
         return LLMResponse(content=content, model=self._model, usage=usage)

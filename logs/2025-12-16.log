@@ -1,0 +1,92 @@
+2025-12-16 11:16:41 - INFO - lib.log - Loaded config: nurse_persona_v1
+2025-12-16 11:16:41 - INFO - lib.log - Using LLM: openai (gpt-4o-mini)
+2025-12-16 11:18:12 - INFO - lib.log - Loaded config: nurse_persona_v1
+2025-12-16 11:18:12 - INFO - lib.log - Using LLM: openai (gpt-4o-mini)
+2025-12-16 11:18:42 - INFO - lib.log - Loaded config: nurse_persona_v1
+2025-12-16 11:18:42 - INFO - lib.log - Using LLM: openai (gpt-4o-mini)
+2025-12-16 11:18:42 - INFO - lib.log - Generating base data: n=10, seed=42
+2025-12-16 11:18:42 - INFO - lib.log - Generating persona id=1
+2025-12-16 11:18:42 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:18:58 - INFO - lib.log - OpenAI JSON response received: tokens=2258
+2025-12-16 11:18:58 - INFO - lib.log - Generated persona id=1: 内科系
+2025-12-16 11:18:58 - INFO - lib.log - Generating persona id=2
+2025-12-16 11:18:58 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:19:12 - INFO - lib.log - OpenAI JSON response received: tokens=2280
+2025-12-16 11:19:12 - INFO - lib.log - Generated persona id=2: 内科系
+2025-12-16 11:19:12 - INFO - lib.log - Generating persona id=3
+2025-12-16 11:19:12 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:19:27 - INFO - lib.log - OpenAI JSON response received: tokens=2287
+2025-12-16 11:19:27 - INFO - lib.log - Generated persona id=3: 内科系
+2025-12-16 11:19:27 - INFO - lib.log - Generating persona id=4
+2025-12-16 11:19:27 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:19:41 - INFO - lib.log - OpenAI JSON response received: tokens=2275
+2025-12-16 11:19:41 - INFO - lib.log - Generated persona id=4: 内科系
+2025-12-16 11:19:41 - INFO - lib.log - Generating persona id=5
+2025-12-16 11:19:41 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:19:56 - INFO - lib.log - OpenAI JSON response received: tokens=2283
+2025-12-16 11:19:56 - INFO - lib.log - Generated persona id=5: 内科系
+2025-12-16 11:19:56 - INFO - lib.log - Generating persona id=6
+2025-12-16 11:19:56 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:20:09 - INFO - lib.log - OpenAI JSON response received: tokens=2277
+2025-12-16 11:20:09 - INFO - lib.log - Generated persona id=6: 外科系
+2025-12-16 11:20:09 - INFO - lib.log - Generating persona id=7
+2025-12-16 11:20:09 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:20:26 - INFO - lib.log - OpenAI JSON response received: tokens=2283
+2025-12-16 11:20:26 - INFO - lib.log - Generated persona id=7: 内科系
+2025-12-16 11:20:26 - INFO - lib.log - Generating persona id=8
+2025-12-16 11:20:26 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:20:41 - INFO - lib.log - OpenAI JSON response received: tokens=2257
+2025-12-16 11:20:41 - INFO - lib.log - Generated persona id=8: 内科系
+2025-12-16 11:20:41 - INFO - lib.log - Generating persona id=9
+2025-12-16 11:20:41 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:20:58 - INFO - lib.log - OpenAI JSON response received: tokens=2273
+2025-12-16 11:20:58 - INFO - lib.log - Generated persona id=9: 内科系
+2025-12-16 11:20:58 - INFO - lib.log - Generating persona id=10
+2025-12-16 11:20:58 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:21:16 - INFO - lib.log - OpenAI JSON response received: tokens=2285
+2025-12-16 11:21:16 - INFO - lib.log - Generated persona id=10: 内科系
+2025-12-16 11:21:19 - INFO - lib.log - Output written: output\result.xlsx (10 records)
+2025-12-16 11:38:44 - INFO - lib.log - Loaded config: nurse_persona_v1
+2025-12-16 11:38:44 - INFO - lib.log - Using LLM: openai (gpt-4o-mini)
+2025-12-16 11:38:44 - INFO - lib.log - Generating base data: n=10, seed=42
+2025-12-16 11:38:44 - INFO - lib.log - Generating persona id=1
+2025-12-16 11:38:44 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:38:56 - INFO - lib.log - OpenAI usage: {'prompt_tokens': 1661, 'completion_tokens': 627, 'total_tokens': 2288}
+2025-12-16 11:38:56 - INFO - lib.log - Generated persona id=1: 内科系
+2025-12-16 11:38:56 - INFO - lib.log - Generating persona id=2
+2025-12-16 11:38:56 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:39:08 - INFO - lib.log - OpenAI usage: {'prompt_tokens': 1667, 'completion_tokens': 638, 'total_tokens': 2305}
+2025-12-16 11:39:08 - INFO - lib.log - Generated persona id=2: 内科系
+2025-12-16 11:39:08 - INFO - lib.log - Generating persona id=3
+2025-12-16 11:39:08 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:39:22 - INFO - lib.log - OpenAI usage: {'prompt_tokens': 1667, 'completion_tokens': 641, 'total_tokens': 2308}
+2025-12-16 11:39:22 - INFO - lib.log - Generated persona id=3: 内科系
+2025-12-16 11:39:22 - INFO - lib.log - Generating persona id=4
+2025-12-16 11:39:22 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:39:34 - INFO - lib.log - OpenAI usage: {'prompt_tokens': 1665, 'completion_tokens': 644, 'total_tokens': 2309}
+2025-12-16 11:39:34 - INFO - lib.log - Generated persona id=4: 内科系
+2025-12-16 11:39:34 - INFO - lib.log - Generating persona id=5
+2025-12-16 11:39:34 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:39:47 - INFO - lib.log - OpenAI usage: {'prompt_tokens': 1666, 'completion_tokens': 644, 'total_tokens': 2310}
+2025-12-16 11:39:47 - INFO - lib.log - Generated persona id=5: 内科系
+2025-12-16 11:39:47 - INFO - lib.log - Generating persona id=6
+2025-12-16 11:39:47 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:39:59 - INFO - lib.log - OpenAI usage: {'prompt_tokens': 1664, 'completion_tokens': 634, 'total_tokens': 2298}
+2025-12-16 11:39:59 - INFO - lib.log - Generated persona id=6: ICU
+2025-12-16 11:39:59 - INFO - lib.log - Generating persona id=7
+2025-12-16 11:39:59 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:40:13 - INFO - lib.log - OpenAI usage: {'prompt_tokens': 1669, 'completion_tokens': 640, 'total_tokens': 2309}
+2025-12-16 11:40:13 - INFO - lib.log - Generated persona id=7: 内科系
+2025-12-16 11:40:13 - INFO - lib.log - Generating persona id=8
+2025-12-16 11:40:13 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:40:27 - INFO - lib.log - OpenAI usage: {'prompt_tokens': 1659, 'completion_tokens': 628, 'total_tokens': 2287}
+2025-12-16 11:40:27 - INFO - lib.log - Generated persona id=8: 外科系
+2025-12-16 11:40:27 - INFO - lib.log - Generating persona id=9
+2025-12-16 11:40:27 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:40:39 - INFO - lib.log - OpenAI usage: {'prompt_tokens': 1665, 'completion_tokens': 644, 'total_tokens': 2309}
+2025-12-16 11:40:39 - INFO - lib.log - Generated persona id=9: 内科系
+2025-12-16 11:40:39 - INFO - lib.log - Generating persona id=10
+2025-12-16 11:40:39 - INFO - lib.log - OpenAI generate_json: model=gpt-4o-mini
+2025-12-16 11:40:50 - INFO - lib.log - OpenAI usage: {'prompt_tokens': 1667, 'completion_tokens': 645, 'total_tokens': 2312}
+2025-12-16 11:40:50 - INFO - lib.log - Generated persona id=10: 内科系
+2025-12-16 11:40:51 - INFO - lib.log - Output written: output\result.xlsx (10 records)

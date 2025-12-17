@@ -10,12 +10,13 @@
       "Bash(mkdir:*)",
       "Bash(uv sync:*)",
       "Bash(uv run ruff:*)",
-      "Bash(uv run:*)"
+      "Bash(uv run:*)",
+      "mcp__serena__insert_after_symbol",
+      "mcp__serena__think_about_task_adherence"
     ]
   },
   "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
-    "playwright",
     "serena"
   ]
 }

@@ -2,6 +2,7 @@
 
 import json
 from enum import Enum
+from pathlib import Path
 from typing import Annotated, Optional
 
 import typer
@@ -14,7 +15,7 @@ from lib.output import OutputWriter, can_write
 
 load_dotenv()
 
-app = typer.Typer(help="DCE用の看護師ペルソナを生成するツール")
+app = typer.Typer(help="DCE用の看護師ペルソナを生成するツール", pretty_exceptions_enable=False)
 
 
 class Provider(str, Enum):
@@ -30,6 +31,28 @@ def print_progress(current: int, total: int, persona: dict):
     typer.echo(f"  [{current}/{total}] id={persona.get('id', '?')} {name} {status}")
 
 
+def get_unique_filepath(filepath: str) -> str:
+    """既存ファイルと重複しないファイルパスを返す
+
+    ファイルが存在しない場合はそのまま返す。
+    存在する場合は result(1).xlsx, result(2).xlsx のように連番を付ける。
+    """
+    path = Path(filepath)
+    if not path.exists():
+        return filepath
+
+    stem = path.stem
+    suffix = path.suffix
+    parent = path.parent
+
+    counter = 1
+    while True:
+        new_path = parent / f"{stem}({counter}){suffix}"
+        if not new_path.exists():
+            return str(new_path)
+        counter += 1
+
+
 @app.command()
 def generate(
     count: Annotated[int, typer.Option("-n", "--count", help="生成する人数")] = 10,
@@ -40,8 +63,17 @@ def generate(
     model: Annotated[Optional[str], typer.Option(help="モデル名")] = None,
     append: Annotated[bool, typer.Option(help="既存ファイルに追記")] = False,
     dry_run: Annotated[bool, typer.Option("--dry-run", help="設定確認のみ")] = False,
+    generate_excel_path: Annotated[str, typer.Option("--generate-excel-path", help="Excelファイルパス（指定されるとgenerateしない）")] = "output/nurse_data.xlsx",
 ):
     """ペルソナを生成する"""
+    """
+    gpt-5.2-pro-2025-12-11  Input:$21   Output:$168
+    gpt-5.2-2025-12-11      Input:$1.75 Output:$14
+    gpt-5-mini-2025-08-07   Input:$0.25 Output:$2
+    gpt-5-nano-2025-08-07   Input:$0.05 Output:$0.4
+    gpt-4.1-2025-04-14      Input:$2    Output:$8
+    gpt-4o-mini             Input:$0.15 Output:$0.6
+    """
     # 設定読み込み
     try:
         config = ConfigLoader.load(config_path)
@@ -71,6 +103,10 @@ def generate(
         typer.echo(f"Output Columns: {len(config.output.columns)} columns")
         raise typer.Exit(0)
 
+    # 出力ファイルパスの決定（追記モードでない場合、既存ファイルがあれば連番を付ける）
+    if not append:
+        output = get_unique_filepath(output)
+
     # 出力ファイルの書き込みチェック
     if not can_write(output):
         typer.echo(f"エラー: {output} を閉じてください", err=True)
@@ -88,11 +124,18 @@ def generate(
     typer.echo(f"ペルソナを生成中... (n={count}, provider={config.llm.provider})")
     generator = PersonaGenerator(config, llm_client)
 
-    personas = generator.generate_batch(
-        n=count,
-        seed=seed,
-        on_progress=print_progress,
-    )
+    if config.generate_excel_path:
+        personas = generator.generate_batch_from_excel(
+            excel_path=config.generate_excel_path,
+            sheet_name="Sheet1",
+            n=count,
+        )
+    else:
+        personas = generator.generate_batch(
+            n=count,
+            seed=seed,
+            on_progress=print_progress,
+        )
 
     # 結果を表示
     typer.echo(f"\n生成完了: {len(personas)}件")

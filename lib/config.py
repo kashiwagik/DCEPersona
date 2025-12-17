@@ -45,6 +45,7 @@ class Config:
     system_prompt: str
     user_prompt: str
     config_dir: Path
+    generate_excel_path: str | None = None
 
 
 class ConfigLoader:
