@@ -46,6 +46,7 @@ class PersonaGenerator:
             user_prompt=user_prompt,
             temperature=self.config.llm.temperature,
             max_tokens=self.config.llm.max_tokens,
+            extra_params=self.config.llm.extra_params,
         )
 
         # レスポンスをパース

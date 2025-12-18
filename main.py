@@ -56,14 +56,16 @@ def get_unique_filepath(filepath: str) -> str:
 @app.command()
 def generate(
     count: Annotated[int, typer.Option("-n", "--count", help="生成する人数")] = 10,
-    output: Annotated[str, typer.Option("-o", "--output", help="出力ファイルパス")] = "output/result.xlsx",
-    config_path: Annotated[str, typer.Option("-c", "--config", help="設定ディレクトリ")] = "configs/v1_nurse",
+    output: Annotated[str, typer.Option("-o", "--output", help="出力ファイルパス")] = None,
+    config_name: Annotated[str, typer.Option("-c", "--config", help="設定ディレクトリ")] = "v1_nurse",
     seed: Annotated[Optional[int], typer.Option("-s", "--seed", help="乱数シード")] = None,
     provider: Annotated[Optional[Provider], typer.Option(help="LLMプロバイダー")] = None,
     model: Annotated[Optional[str], typer.Option(help="モデル名")] = None,
     append: Annotated[bool, typer.Option(help="既存ファイルに追記")] = False,
     dry_run: Annotated[bool, typer.Option("--dry-run", help="設定確認のみ")] = False,
-    generate_excel_path: Annotated[str, typer.Option("--generate-excel-path", help="Excelファイルパス（指定されるとgenerateしない）")] = "output/nurse_data.xlsx",
+    generate_excel_path: Annotated[
+        str, typer.Option("--generate-excel-path", help="Excelファイルパス（指定されるとgenerateしない）")
+    ] = None,
 ):
     """ペルソナを生成する"""
     """
@@ -73,10 +75,12 @@ def generate(
     gpt-5-nano-2025-08-07   Input:$0.05 Output:$0.4
     gpt-4.1-2025-04-14      Input:$2    Output:$8
     gpt-4o-mini             Input:$0.15 Output:$0.6
+    claude Opus 4.5         Input:$2.50 Output:$12.50
+    claude Sonnet 4.5       Input:$1.50 Output:$7.50
     """
     # 設定読み込み
     try:
-        config = ConfigLoader.load(config_path)
+        config = ConfigLoader.load("configs/" + config_name)
         logger.info("Loaded config: %s", config.name)
     except FileNotFoundError as e:
         typer.echo(f"エラー: {e}", err=True)
@@ -104,8 +108,9 @@ def generate(
         raise typer.Exit(0)
 
     # 出力ファイルパスの決定（追記モードでない場合、既存ファイルがあれば連番を付ける）
+    output_name = output or config_name
     if not append:
-        output = get_unique_filepath(output)
+        output = get_unique_filepath(f"output/{output_name}.xlsx")
 
     # 出力ファイルの書き込みチェック
     if not can_write(output):
@@ -124,9 +129,9 @@ def generate(
     typer.echo(f"ペルソナを生成中... (n={count}, provider={config.llm.provider})")
     generator = PersonaGenerator(config, llm_client)
 
-    if config.generate_excel_path:
+    if generate_excel_path:
         personas = generator.generate_batch_from_excel(
-            excel_path=config.generate_excel_path,
+            file_path=generate_excel_path,
             sheet_name="Sheet1",
             n=count,
         )
@@ -145,8 +150,9 @@ def generate(
         typer.echo(f"... 他 {len(personas) - 3}件")
 
     # 出力
+    settings = config.to_json()
     writer = OutputWriter(config)
-    output_path = writer.write(personas, output, append=append)
+    output_path = writer.write(personas, output, settings=settings, append=append)
     typer.echo(f"\n出力: {output_path}")
 
 

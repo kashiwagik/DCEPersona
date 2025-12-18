@@ -1,7 +1,8 @@
 """設定ファイルの読み込みと管理"""
 
+import json
 import os
-from dataclasses import dataclass, field
+from dataclasses import asdict, dataclass, field
 from pathlib import Path
 
 import yaml
@@ -15,6 +16,7 @@ class LLMConfig:
     model: str = "gpt-4o-mini"
     temperature: float = 1.0
     max_tokens: int = 2000
+    extra_params: dict = field(default_factory=dict)
 
 
 @dataclass
@@ -46,6 +48,10 @@ class Config:
     user_prompt: str
     config_dir: Path
     generate_excel_path: str | None = None
+
+    def to_json(self, indent: int | None = 2) -> str:
+        """設定をJSON文字列として返す"""
+        return json.dumps(asdict(self), ensure_ascii=False, indent=indent, default=str)
 
 
 class ConfigLoader:
@@ -86,6 +92,7 @@ class ConfigLoader:
             model=llm_raw.get("model", "gpt-4o-mini"),
             temperature=llm_raw.get("temperature", 1.0),
             max_tokens=llm_raw.get("max_tokens", 2000),
+            extra_params=llm_raw.get("extra_params", {}),
         )
 
         # サンプリング設定

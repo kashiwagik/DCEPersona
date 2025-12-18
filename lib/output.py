@@ -27,6 +27,7 @@ class OutputWriter:
         self,
         personas: list[dict[str, Any]],
         output_path: str | Path,
+        settings: str = None,
         append: bool = False,
     ) -> Path:
         """
@@ -59,7 +60,7 @@ class OutputWriter:
 
         # 出力
         if self.format == "xlsx" or output_path.suffix == ".xlsx":
-            self._write_excel(df, output_path)
+            self._write_excel(df, output_path, settings)
         elif self.format == "csv" or output_path.suffix == ".csv":
             self._write_csv(df, output_path)
         else:
@@ -86,12 +87,18 @@ class OutputWriter:
 
         return df
 
-    def _write_excel(self, df: pd.DataFrame, output_path: Path) -> None:
+    def _write_excel(self, df: pd.DataFrame, output_path: Path, settings: str = None) -> None:
         """Excelファイルとして出力"""
         # 親ディレクトリを作成
         output_path.parent.mkdir(parents=True, exist_ok=True)
 
-        df.to_excel(output_path, sheet_name="Sheet1", index=False)
+        if settings:
+            with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
+                df.to_excel(writer, sheet_name="Sheet1", index=False)
+                df2 = pd.DataFrame(settings.splitlines(), columns=["settings"])
+                df2.to_excel(writer, sheet_name="settings", index=False)
+        else:
+            df.to_excel(output_path, sheet_name="Sheet1", index=False)
 
     def _write_csv(self, df: pd.DataFrame, output_path: Path) -> None:
         """CSVファイルとして出力"""

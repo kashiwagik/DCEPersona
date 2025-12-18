@@ -12,7 +12,10 @@
       "Bash(uv run ruff:*)",
       "Bash(uv run:*)",
       "mcp__serena__insert_after_symbol",
-      "mcp__serena__think_about_task_adherence"
+      "mcp__serena__think_about_task_adherence",
+      "mcp__serena__search_for_pattern",
+      "mcp__serena__replace_symbol_body",
+      "mcp__serena__think_about_whether_you_are_done"
     ]
   },
   "enableAllProjectMcpServers": true,

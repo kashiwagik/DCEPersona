@@ -1,5 +1,7 @@
 """Anthropic APIクライアント実装"""
 
+import re
+
 from anthropic import Anthropic
 
 from lib.log import logger
@@ -31,17 +33,23 @@ class AnthropicClient(LLMClient):
         user_prompt: str,
         temperature: float = 1.0,
         max_tokens: int = 2000,
+        extra_params: dict | None = None,
     ) -> LLMResponse:
         logger.info("Anthropic generate: model=%s", self._model)
 
+        # extra_params にトークン制限がなければ max_tokens を使用
+        params = extra_params.copy() if extra_params else {}
+        if "max_tokens" not in params:
+            params["max_tokens"] = max_tokens
+
         response = self._client.messages.create(
             model=self._model,
-            max_tokens=max_tokens,
             system=system_prompt,
             messages=[
                 {"role": "user", "content": user_prompt},
             ],
             temperature=temperature,
+            **params,
         )
 
         content = ""
@@ -65,6 +73,7 @@ class AnthropicClient(LLMClient):
         user_prompt: str,
         temperature: float = 1.0,
         max_tokens: int = 2000,
+        extra_params: dict | None = None,
     ) -> LLMResponse:
         """
         JSON形式での出力を要求してリクエストを送信
@@ -76,17 +85,25 @@ class AnthropicClient(LLMClient):
         logger.info("Anthropic generate_json: model=%s", self._model)
 
         # JSON出力を強制するための指示を追加
-        json_instruction = "\n\n重要: 出力は必ず有効なJSONオブジェクトのみを返してください。説明文や前後のテキストは不要です。"
+        json_instruction = "\n\n重要: 出力は必ず有効なJSONオブジェクトのみを返してください。説明文や前後のテキストは不要です。** 先頭にjsonをつけるな。 **"
         enhanced_system_prompt = system_prompt + json_instruction
+
+        # extra_params にトークン制限がなければ max_tokens を使用
+        params = extra_params.copy() if extra_params else {}
+        if "max_tokens" not in params:
+            params["max_tokens"] = max_tokens
+
+        logger.info("Anthropic JSON SYSTEM: %s", enhanced_system_prompt)
+        logger.info("Anthropic JSON USER: %s", user_prompt)
 
         response = self._client.messages.create(
             model=self._model,
-            max_tokens=max_tokens,
             system=enhanced_system_prompt,
             messages=[
                 {"role": "user", "content": user_prompt},
             ],
             temperature=temperature,
+            **params,
         )
 
         content = ""
@@ -94,12 +111,22 @@ class AnthropicClient(LLMClient):
             if block.type == "text":
                 content += block.text
 
+        # anthropicは、なぜかjson{}と返す
+        print(f"# 1 #########\n{content}$$$$$$$$$$$$\n")
+        content = re.sub(r"^```(.*)```", r"\1", content, flags=re.DOTALL)
+        print(f"# 2 #########\n{content}$$$$$$$$$$$$\n")
+        if content.startswith("json"):
+            print("json start")
+            content = re.sub(r"json\n?", "", content, flags=re.DOTALL)
+        print(f"# 3 #########\n{content}$$$$$$$$$$$$\n")
+
         usage = {
             "prompt_tokens": response.usage.input_tokens,
             "completion_tokens": response.usage.output_tokens,
             "total_tokens": response.usage.input_tokens + response.usage.output_tokens,
         }
 
+        logger.info("Anthropic JSON response: %s", response)
         logger.info("Anthropic JSON response received: tokens=%d", usage["total_tokens"])
 
         return LLMResponse(content=content, model=self._model, usage=usage)

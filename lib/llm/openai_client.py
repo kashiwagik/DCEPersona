@@ -31,8 +31,14 @@ class OpenAIClient(LLMClient):
         user_prompt: str,
         temperature: float = 1.0,
         max_tokens: int = 2000,
+        extra_params: dict | None = None,
     ) -> LLMResponse:
         logger.info("OpenAI generate: model=%s", self._model)
+
+        # extra_params にトークン制限がなければ max_tokens を使用
+        params = extra_params.copy() if extra_params else {}
+        if "max_tokens" not in params and "max_completion_tokens" not in params:
+            params["max_tokens"] = max_tokens
 
         response = self._client.chat.completions.create(
             model=self._model,
@@ -41,7 +47,7 @@ class OpenAIClient(LLMClient):
                 {"role": "user", "content": user_prompt},
             ],
             temperature=temperature,
-            max_tokens=max_tokens,
+            **params,
         )
 
         content = response.choices[0].message.content or ""
@@ -61,8 +67,17 @@ class OpenAIClient(LLMClient):
         user_prompt: str,
         temperature: float = 1.0,
         max_tokens: int = 2000,
+        extra_params: dict | None = None,
     ) -> LLMResponse:
         logger.info("OpenAI generate_json: model=%s", self._model)
+
+        # extra_params にトークン制限がなければ max_tokens を使用
+        params = extra_params.copy() if extra_params else {}
+        if "max_tokens" not in params and "max_completion_tokens" not in params:
+            params["max_tokens"] = max_tokens
+
+        logger.info("OpenAI SYSTEM: %s", system_prompt)
+        logger.info("OpenAI USER: %s", user_prompt)
 
         response = self._client.chat.completions.create(
             model=self._model,
@@ -72,7 +87,7 @@ class OpenAIClient(LLMClient):
             ],
             response_format={"type": "json_object"},
             temperature=temperature,
-            max_tokens=max_tokens,
+            **params,
         )
 
         content = response.choices[0].message.content or ""
@@ -83,6 +98,7 @@ class OpenAIClient(LLMClient):
         }
 
         # logger.info("OpenAI JSON response received: tokens=%d", usage["total_tokens"])
+        logger.info("OpenAI response: %s", response)
         logger.info("OpenAI usage: %s", usage)
 
         return LLMResponse(content=content, model=self._model, usage=usage)
