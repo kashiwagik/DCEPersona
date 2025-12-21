@@ -75,8 +75,13 @@ def generate(
     gpt-5-nano-2025-08-07   Input:$0.05 Output:$0.4
     gpt-4.1-2025-04-14      Input:$2    Output:$8
     gpt-4o-mini             Input:$0.15 Output:$0.6
+
     claude Opus 4.5         Input:$2.50 Output:$12.50
     claude Sonnet 4.5       Input:$1.50 Output:$7.50
+
+    Gemini-2.5-Pro          Input:$1.25   Output:$5
+    Gemini-2.0-Flash        Input:$0.10   Output:$0.40
+    Gemini-1.5-Flash        Input:$0.10   Output:$0.40
     """
     # 設定読み込み
     try:
