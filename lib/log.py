@@ -36,7 +36,7 @@ def setup_logger(name: str = __name__, log_dir: str = "logs") -> logging.Logger:
 
     # コンソールハンドラーを設定
     console_handler = logging.StreamHandler()
-    console_handler.setLevel(logging.DEBUG)
+    console_handler.setLevel(logging.INFO)
 
     # フォーマッターを設定（日付・時刻、レベル、メッセージ）
     formatter = logging.Formatter(

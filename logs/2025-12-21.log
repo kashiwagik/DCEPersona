@@ -1,0 +1,2930 @@
+2025-12-21 15:19:16 - INFO - lib.log - Loaded config: nurse_dce_v1
+2025-12-21 15:19:16 - INFO - lib.log - Using LLM: gemini (Gemini-2.5-Pro)
+2025-12-21 15:19:16 - INFO - lib.log - Loading base data from Excel: output/v1_nurse(2).xlsx
+2025-12-21 15:19:17 - INFO - lib.log - Loaded 10 rows from Excel
+2025-12-21 15:19:17 - INFO - lib.log - Generating persona id=1
+2025-12-21 15:19:17 - ERROR - lib.log - Failed to generate persona id=1: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:19:17 - INFO - lib.log - Generating persona id=2
+2025-12-21 15:19:17 - ERROR - lib.log - Failed to generate persona id=2: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:19:17 - INFO - lib.log - Generating persona id=3
+2025-12-21 15:19:17 - ERROR - lib.log - Failed to generate persona id=3: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:19:17 - INFO - lib.log - Generating persona id=4
+2025-12-21 15:19:17 - ERROR - lib.log - Failed to generate persona id=4: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:19:17 - INFO - lib.log - Generating persona id=5
+2025-12-21 15:19:17 - ERROR - lib.log - Failed to generate persona id=5: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:19:17 - INFO - lib.log - Generating persona id=6
+2025-12-21 15:19:18 - ERROR - lib.log - Failed to generate persona id=6: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:19:18 - INFO - lib.log - Generating persona id=7
+2025-12-21 15:19:18 - ERROR - lib.log - Failed to generate persona id=7: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:19:18 - INFO - lib.log - Generating persona id=8
+2025-12-21 15:19:18 - ERROR - lib.log - Failed to generate persona id=8: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:19:18 - INFO - lib.log - Generating persona id=9
+2025-12-21 15:19:18 - ERROR - lib.log - Failed to generate persona id=9: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:19:18 - INFO - lib.log - Generating persona id=10
+2025-12-21 15:19:18 - ERROR - lib.log - Failed to generate persona id=10: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:19:18 - INFO - lib.log - Output written: output\v1_dce(1).xlsx (10 records)
+2025-12-21 15:20:30 - INFO - lib.log - Loaded config: nurse_dce_v1
+2025-12-21 15:20:31 - INFO - lib.log - Using LLM: gemini (gemini-2.5-Pro)
+2025-12-21 15:20:31 - INFO - lib.log - Loading base data from Excel: output/v1_nurse(2).xlsx
+2025-12-21 15:20:31 - INFO - lib.log - Loaded 10 rows from Excel
+2025-12-21 15:20:31 - INFO - lib.log - Generating persona id=1
+2025-12-21 15:20:31 - ERROR - lib.log - Failed to generate persona id=1: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:20:31 - INFO - lib.log - Generating persona id=2
+2025-12-21 15:20:31 - ERROR - lib.log - Failed to generate persona id=2: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:20:31 - INFO - lib.log - Generating persona id=3
+2025-12-21 15:20:31 - ERROR - lib.log - Failed to generate persona id=3: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:20:31 - INFO - lib.log - Generating persona id=4
+2025-12-21 15:20:31 - ERROR - lib.log - Failed to generate persona id=4: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:20:31 - INFO - lib.log - Generating persona id=5
+2025-12-21 15:20:31 - ERROR - lib.log - Failed to generate persona id=5: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:20:31 - INFO - lib.log - Generating persona id=6
+2025-12-21 15:20:31 - ERROR - lib.log - Failed to generate persona id=6: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:20:31 - INFO - lib.log - Generating persona id=7
+2025-12-21 15:20:31 - ERROR - lib.log - Failed to generate persona id=7: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:20:31 - INFO - lib.log - Generating persona id=8
+2025-12-21 15:20:32 - ERROR - lib.log - Failed to generate persona id=8: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:20:32 - INFO - lib.log - Generating persona id=9
+2025-12-21 15:20:32 - ERROR - lib.log - Failed to generate persona id=9: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:20:32 - INFO - lib.log - Generating persona id=10
+2025-12-21 15:20:32 - ERROR - lib.log - Failed to generate persona id=10: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:20:32 - INFO - lib.log - Output written: output\v1_dce(2).xlsx (10 records)
+2025-12-21 15:21:40 - INFO - lib.log - Loaded config: nurse_dce_v1
+2025-12-21 15:21:40 - INFO - lib.log - Using LLM: gemini (gemini-2.5-Pro)
+2025-12-21 15:21:40 - INFO - lib.log - Loading base data from Excel: output/v1_nurse(2).xlsx
+2025-12-21 15:21:40 - INFO - lib.log - Loaded 10 rows from Excel
+2025-12-21 15:21:40 - INFO - lib.log - Generating persona id=1
+2025-12-21 15:21:40 - ERROR - lib.log - Failed to generate persona id=1: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:21:40 - INFO - lib.log - Generating persona id=2
+2025-12-21 15:21:40 - ERROR - lib.log - Failed to generate persona id=2: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:21:40 - INFO - lib.log - Generating persona id=3
+2025-12-21 15:21:41 - ERROR - lib.log - Failed to generate persona id=3: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:21:41 - INFO - lib.log - Generating persona id=4
+2025-12-21 15:21:41 - ERROR - lib.log - Failed to generate persona id=4: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:21:41 - INFO - lib.log - Generating persona id=5
+2025-12-21 15:21:41 - ERROR - lib.log - Failed to generate persona id=5: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:21:41 - INFO - lib.log - Generating persona id=6
+2025-12-21 15:21:41 - ERROR - lib.log - Failed to generate persona id=6: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:21:41 - INFO - lib.log - Generating persona id=7
+2025-12-21 15:21:41 - ERROR - lib.log - Failed to generate persona id=7: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:21:41 - INFO - lib.log - Generating persona id=8
+2025-12-21 15:21:41 - ERROR - lib.log - Failed to generate persona id=8: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:21:41 - INFO - lib.log - Generating persona id=9
+2025-12-21 15:21:41 - ERROR - lib.log - Failed to generate persona id=9: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:21:41 - INFO - lib.log - Generating persona id=10
+2025-12-21 15:21:42 - ERROR - lib.log - Failed to generate persona id=10: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2025-12-21 15:21:42 - INFO - lib.log - Output written: output\v1_dce(3).xlsx (10 records)
+2025-12-21 15:23:42 - INFO - lib.log - Loaded config: nurse_dce_v1
+2025-12-21 15:23:42 - INFO - lib.log - Using LLM: gemini (gemini-2.5-Pro)
+2025-12-21 15:23:42 - INFO - lib.log - Loading base data from Excel: output/v1_nurse(2).xlsx
+2025-12-21 15:23:42 - INFO - lib.log - Loaded 10 rows from Excel
+2025-12-21 15:23:42 - INFO - lib.log - Generating persona id=1
+2025-12-21 15:24:14 - INFO - lib.log - Generated persona id=1: N/A
+2025-12-21 15:24:14 - INFO - lib.log - Generating persona id=2
+2025-12-21 15:24:48 - WARNING - lib.log - JSON parse error for persona id=2: Unterminated string starting at: line 12 column 23 (char 597)
+2025-12-21 15:24:48 - INFO - lib.log - Generated persona id=2: 内科系
+2025-12-21 15:24:48 - INFO - lib.log - Generating persona id=3
+2025-12-21 15:25:19 - WARNING - lib.log - JSON parse error for persona id=3: Expecting property name enclosed in double quotes: line 13 column 1 (char 660)
+2025-12-21 15:25:19 - INFO - lib.log - Generated persona id=3: 内科系
+2025-12-21 15:25:19 - INFO - lib.log - Generating persona id=4
+2025-12-21 15:25:46 - INFO - lib.log - Generated persona id=4: N/A
+2025-12-21 15:25:46 - INFO - lib.log - Generating persona id=5
+2025-12-21 15:26:16 - INFO - lib.log - Generated persona id=5: N/A
+2025-12-21 15:26:16 - INFO - lib.log - Generating persona id=6
+2025-12-21 15:26:47 - INFO - lib.log - Generated persona id=6: N/A
+2025-12-21 15:26:47 - INFO - lib.log - Generating persona id=7
+2025-12-21 15:27:15 - INFO - lib.log - Generated persona id=7: N/A
+2025-12-21 15:27:15 - INFO - lib.log - Generating persona id=8
+2025-12-21 15:27:49 - WARNING - lib.log - JSON parse error for persona id=8: Unterminated string starting at: line 16 column 23 (char 935)
+2025-12-21 15:27:49 - INFO - lib.log - Generated persona id=8: 内科系
+2025-12-21 15:27:49 - INFO - lib.log - Generating persona id=9
+2025-12-21 15:28:17 - INFO - lib.log - Generated persona id=9: N/A
+2025-12-21 15:28:17 - INFO - lib.log - Generating persona id=10
+2025-12-21 15:28:47 - INFO - lib.log - Generated persona id=10: N/A
+2025-12-21 15:28:47 - INFO - lib.log - Output written: output\v1_dce(4).xlsx (10 records)
+2025-12-21 15:34:06 - INFO - lib.log - Loaded config: nurse_dce_v1
+2025-12-21 15:34:07 - INFO - lib.log - Using LLM: gemini (gemini-2.5-Pro)
+2025-12-21 15:34:07 - INFO - lib.log - Loading base data from Excel: output/v1_nurse(2).xlsx
+2025-12-21 15:34:07 - INFO - lib.log - Loaded 10 rows from Excel
+2025-12-21 15:34:07 - INFO - lib.log - Generating persona id=1
+2025-12-21 15:34:36 - INFO - lib.log - Generated persona id=1: N/A
+2025-12-21 15:34:36 - INFO - lib.log - Generating persona id=2
+2025-12-21 15:35:03 - INFO - lib.log - Generated persona id=2: N/A
+2025-12-21 15:35:03 - INFO - lib.log - Generating persona id=3
+2025-12-21 15:35:30 - INFO - lib.log - Generated persona id=3: N/A
+2025-12-21 15:35:30 - INFO - lib.log - Generating persona id=4
+2025-12-21 15:36:02 - ERROR - lib.log - Failed to generate persona id=4: Gemini response was truncated due to max_tokens limit (4000). Please increase max_tokens in config.
+2025-12-21 15:36:02 - INFO - lib.log - Generating persona id=5
+2025-12-21 15:36:32 - INFO - lib.log - Generated persona id=5: N/A
+2025-12-21 15:36:32 - INFO - lib.log - Generating persona id=6
+2025-12-21 15:37:00 - INFO - lib.log - Generated persona id=6: N/A
+2025-12-21 15:37:00 - INFO - lib.log - Generating persona id=7
+2025-12-21 15:37:32 - ERROR - lib.log - Failed to generate persona id=7: Gemini response was truncated due to max_tokens limit (4000). Please increase max_tokens in config.
+2025-12-21 15:37:32 - INFO - lib.log - Generating persona id=8
+2025-12-21 15:38:03 - INFO - lib.log - Generated persona id=8: N/A
+2025-12-21 15:38:03 - INFO - lib.log - Generating persona id=9
+2025-12-21 15:38:33 - INFO - lib.log - Generated persona id=9: N/A
+2025-12-21 15:38:33 - INFO - lib.log - Generating persona id=10
+2025-12-21 15:39:02 - INFO - lib.log - Generated persona id=10: N/A
+2025-12-21 15:39:02 - INFO - lib.log - Output written: output\v1_dce(5).xlsx (10 records)
+2025-12-21 15:43:01 - INFO - lib.log - Loaded config: nurse_dce_v1
+2025-12-21 15:43:02 - INFO - lib.log - Using LLM: gemini (gemini-2.5-Pro)
+2025-12-21 15:43:02 - INFO - lib.log - Loading base data from Excel: output/v1_nurse(2).xlsx
+2025-12-21 15:43:02 - INFO - lib.log - Loaded 10 rows from Excel
+2025-12-21 15:43:02 - INFO - lib.log - Generating persona id=1
+2025-12-21 15:43:02 - INFO - lib.log - Gemini generate_json: model=models/gemini-2.5-pro
+2025-12-21 15:43:02 - DEBUG - lib.log - Gemini SYSTEM: あなたは現在、日本の病院で働く看護師のプロファイラーです。
+最後に指定する **【個人プロファイル】**になりきって、「選択」に提示された8つのChoicesの中から、
+AとBのうち、どちらで働きたいか、まず理由を考えて、その後選択してください。
+
+## 制約：
+- 出力は必ずJSONオブジェクトのみとし、前後に説明文なし
+- 与えられた個人プロファイルと矛盾しないようにしてください
+
+
+## 出力形式：
+{
+    "Choice1.reason": "給与がよいから",
+    "Choice1.choice": "1A",
+    "Choice2.reason": "専門性重視",
+    "Choice2.choice": "1B",
+    ...
+}
+
+2025-12-21 15:43:02 - DEBUG - lib.log - Gemini USER: 以下の【個人プロファイル】を持つ看護師について、「選択」に提示された8つのChoicesの中から、AとBのうち、どちらで働きたいか、その理由を考え、
+どちらかを選択してください。
+
+## 【個人プロファイル】
+- id: 1
+- 性別: 女性
+- 年齢: 50
+- 都道府県: 広島県
+- 看護師経験年数: 28
+- 都市人口: 20～50万人
+- 婚姻状況: 既婚
+- 子供の人数: 0
+- 下の子ども: なし
+- 介護責任: なし
+- 世帯収入: 共働き(主な稼ぎ手)
+- 居住形態: 持ち家
+- 奨学金: 返済済み
+- 住宅ローン: なし
+- 通勤時間: 30～60分
+- 最終学歴: 大学
+- 病院種類: 公立病院
+- 病床機能: 慢性期
+- 病院規模: 100～200床未満
+- 診療科: 内科系
+- 夜勤形態: 月2,3回の当直
+- 異動頻度の経験: 少ない
+- 現在の役割: スタッフ
+- 専門・認定取得の現実性: 高
+- 看護資格: なし
+- 年収: 600
+- 月平均残業時間: 10時間未満
+- 有給取得率: 80%以上
+- 受け持ち患者数: 適正
+- 上司との関係: 良好
+- 同僚との関係: 良好
+- 経済的不安: 低
+- 身体的疲労の蓄積: 中
+- 仕事と家庭の両立困難感: 低
+- バーンアウト傾向: 3
+- ワークエンゲージメント: 7
+- 職務満足度: 8
+- 組織コミットメント: 7
+- 自己効力感: 6
+- 給与感度: 4
+- 業務量耐性: 6
+- 異動柔軟性: 5
+- キャリア志向: 6
+- 上司支援の必要度: 4
+- 現状満足度: 8
+
+
+## 選択:
+[
+    {
+        "Choice1": {
+            "1A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "1B": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice2": {
+            "2A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "2B": {
+                "給与": "＋3万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice3": {
+            "3A": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "3B": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice4": {
+            "4A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "4B": {
+                "給与": "現状",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice5": {
+            "5A": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            },
+            "5B": {
+                "給与": "＋3万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice6": {
+            "6A": {
+                "給与": "＋1万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "6B": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice7": {
+            "7A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "7B": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice8": {
+            "8A": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "8B": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    }
+]
+2025-12-21 15:43:28 - DEBUG - lib.log - GeminiRESPONSEE: sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text="""{
+    "Choice1.reason": "給与が多少増えることよりも、上司との良好な関係が維持でき、看護以外の業務が減る方が、精神的な安定と仕事の質向上に繋がるため。",
+    "Choice1.choice": "1A",
+    "Choice2.reason": "現状の職務満足度が高いため、強制異動は最も避けたい選択肢。業務負担増は望ましくないが、強制異動よりは許容できるため。",
+    "Choice2.choice": "2A",
+    "Choice3.reason": "強制異動はマイナスだが、受け持ち患者数が減るという大幅な業務負担軽減と、手厚い上司の支援があれば、新しい環境でも適応しやすいと考えるため。",
+    "Choice3.choice": "3A",
+    "Choice4.reason": "現在の良好な人間関係は、長年の勤務で築いた財産。業務負担軽減やキャリア支援よりも、相談しやすい上司がいる環境を維持することを優先するため。",
+    "Choice4.choice": "4A",
+    "Choice5.reason": "同額の給与アップであれば、業務負担が増え、上司との関係が悪化するリスクは取りたくない。安定した環境を重視するため。",
+    "Choice5.choice": "5A",
+    "Choice6.reason": "どちらも上司との関係が悪化する厳しい選択だが、強制異動はキャリアの継続性や生活への影響が大きいため、現状の部署に留まれる方を選ぶ。",
+    "Choice6.choice": "6B",
+    "Choice7.reason": "わずかな給与増よりも、手厚い上司のサポートを重視する。多少業務が増えても、相談しやすい環境があれば乗り越えられると考えるため。",
+    "Choice7.choice": "7A",
+    "Choice8.reason": "業務負担が減ることは魅力的だが、上司との関係が悪化するデメリットの方が大きい。良好な人間関係とキャリア支援がある環境を選ぶ。",
+    "Choice8.choice": "8A"
+}"""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-pro' prompt_feedback=None response_id='EZdHacqbIJan1e8PtJeikAU' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=466,
+  prompt_token_count=2137,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=2137
+    ),
+  ],
+  thoughts_token_count=2766,
+  total_token_count=5369
+) automatic_function_calling_history=[] parsed=None
+2025-12-21 15:43:28 - INFO - lib.log - Gemini usage: {'prompt_tokens': 2137, 'completion_tokens': 466, 'total_tokens': 5369}
+2025-12-21 15:43:28 - INFO - lib.log - Generated persona id=1: N/A
+2025-12-21 15:43:28 - INFO - lib.log - Generating persona id=2
+2025-12-21 15:43:28 - INFO - lib.log - Gemini generate_json: model=models/gemini-2.5-pro
+2025-12-21 15:43:28 - DEBUG - lib.log - Gemini SYSTEM: あなたは現在、日本の病院で働く看護師のプロファイラーです。
+最後に指定する **【個人プロファイル】**になりきって、「選択」に提示された8つのChoicesの中から、
+AとBのうち、どちらで働きたいか、まず理由を考えて、その後選択してください。
+
+## 制約：
+- 出力は必ずJSONオブジェクトのみとし、前後に説明文なし
+- 与えられた個人プロファイルと矛盾しないようにしてください
+
+
+## 出力形式：
+{
+    "Choice1.reason": "給与がよいから",
+    "Choice1.choice": "1A",
+    "Choice2.reason": "専門性重視",
+    "Choice2.choice": "1B",
+    ...
+}
+
+2025-12-21 15:43:28 - DEBUG - lib.log - Gemini USER: 以下の【個人プロファイル】を持つ看護師について、「選択」に提示された8つのChoicesの中から、AとBのうち、どちらで働きたいか、その理由を考え、
+どちらかを選択してください。
+
+## 【個人プロファイル】
+- id: 2
+- 性別: 女性
+- 年齢: 63
+- 都道府県: 佐賀県
+- 看護師経験年数: 41
+- 都市人口: 5～20万人
+- 婚姻状況: 既婚
+- 子供の人数: 1
+- 下の子ども: なし
+- 介護責任: なし
+- 世帯収入: 共働き(主な稼ぎ手)
+- 居住形態: 実家
+- 奨学金: 返済済み
+- 住宅ローン: なし
+- 通勤時間: 30～60分
+- 最終学歴: 専門学校
+- 病院種類: 民間急性期
+- 病床機能: 急性期
+- 病院規模: 100～200床未満
+- 診療科: 内科系
+- 夜勤形態: 月2,3回の当直
+- 異動頻度の経験: 少ない
+- 現在の役割: スタッフ
+- 専門・認定取得の現実性: 低
+- 看護資格: なし
+- 年収: 600
+- 月平均残業時間: 10時間未満
+- 有給取得率: 80%以上
+- 受け持ち患者数: 適正
+- 上司との関係: 普通
+- 同僚との関係: 良好
+- 経済的不安: 低
+- 身体的疲労の蓄積: 中
+- 仕事と家庭の両立困難感: 低
+- バーンアウト傾向: 3
+- ワークエンゲージメント: 7
+- 職務満足度: 8
+- 組織コミットメント: 6
+- 自己効力感: 5
+- 給与感度: 3
+- 業務量耐性: 6
+- 異動柔軟性: 4
+- キャリア志向: 2
+- 上司支援の必要度: 3
+- 現状満足度: 9
+
+
+## 選択:
+[
+    {
+        "Choice1": {
+            "1A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "1B": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice2": {
+            "2A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "2B": {
+                "給与": "＋3万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice3": {
+            "3A": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "3B": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice4": {
+            "4A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "4B": {
+                "給与": "現状",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice5": {
+            "5A": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            },
+            "5B": {
+                "給与": "＋3万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice6": {
+            "6A": {
+                "給与": "＋1万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "6B": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice7": {
+            "7A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "7B": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice8": {
+            "8A": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "8B": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    }
+]
+2025-12-21 15:43:58 - DEBUG - lib.log - GeminiRESPONSEE: sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text="""{
+    "Choice1.reason": "現状の業務負担を維持したうえで、上司との関係性が良好になる方が、給与アップよりも精神的な安定につながると考えるため。",
+    "Choice1.choice": "1A",
+    "Choice2.reason": "定年間近での強制異動は心身への負担が大きすぎる。業務負担の増加は好ましくないが、強制異動よりは許容できるため。",
+    "Choice2.choice": "2A",
+    "Choice3.reason": "強制異動は避けたいが、どちらかを選ぶなら、受け持ち患者数が減り、身体的負担が軽減される方が、年齢を考えるとありがたいため。",
+    "Choice3.choice": "3A",
+    "Choice4.reason": "現状の業務量に満足しているため、負担が減る魅力よりも、わずかでも給与が上がり、上司との関係が良好になることの方が望ましい。",
+    "Choice4.choice": "4A",
+    "Choice5.reason": "給与が同じ条件であれば、業務負担が増える選択肢はありえない。現状の働き方を維持できることを最優先するため。",
+    "Choice5.choice": "5A",
+    "Choice6.reason": "給与や雑務の軽減よりも、強制的な異動を避けることを最優先する。長年慣れ親しんだ環境で働き続けたいから。",
+    "Choice6.choice": "6B",
+    "Choice7.reason": "業務負担が増えることは避けたい。給与が少しでも上がり、現在の業務量を維持できる方が、安心して働き続けられるため。",
+    "Choice7.choice": "7B",
+    "Choice8.reason": "年齢と身体的疲労を考慮すると、業務負担が軽減されることの価値が最も高い。上司との関係性よりも身体的な楽さを優先するため。",
+    "Choice8.choice": "8B"
+}"""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-pro' prompt_feedback=None response_id='L5dHaYnYKYGnvr0PpezImQg' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=436,
+  prompt_token_count=2137,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=2137
+    ),
+  ],
+  thoughts_token_count=3454,
+  total_token_count=6027
+) automatic_function_calling_history=[] parsed=None
+2025-12-21 15:43:58 - INFO - lib.log - Gemini usage: {'prompt_tokens': 2137, 'completion_tokens': 436, 'total_tokens': 6027}
+2025-12-21 15:43:58 - INFO - lib.log - Generated persona id=2: N/A
+2025-12-21 15:43:58 - INFO - lib.log - Generating persona id=3
+2025-12-21 15:43:58 - INFO - lib.log - Gemini generate_json: model=models/gemini-2.5-pro
+2025-12-21 15:43:58 - DEBUG - lib.log - Gemini SYSTEM: あなたは現在、日本の病院で働く看護師のプロファイラーです。
+最後に指定する **【個人プロファイル】**になりきって、「選択」に提示された8つのChoicesの中から、
+AとBのうち、どちらで働きたいか、まず理由を考えて、その後選択してください。
+
+## 制約：
+- 出力は必ずJSONオブジェクトのみとし、前後に説明文なし
+- 与えられた個人プロファイルと矛盾しないようにしてください
+
+
+## 出力形式：
+{
+    "Choice1.reason": "給与がよいから",
+    "Choice1.choice": "1A",
+    "Choice2.reason": "専門性重視",
+    "Choice2.choice": "1B",
+    ...
+}
+
+2025-12-21 15:43:58 - DEBUG - lib.log - Gemini USER: 以下の【個人プロファイル】を持つ看護師について、「選択」に提示された8つのChoicesの中から、AとBのうち、どちらで働きたいか、その理由を考え、
+どちらかを選択してください。
+
+## 【個人プロファイル】
+- id: 3
+- 性別: 女性
+- 年齢: 35
+- 都道府県: 熊本県
+- 看護師経験年数: 13
+- 都市人口: 5～20万人
+- 婚姻状況: 既婚
+- 子供の人数: 2
+- 下の子ども: 未就学児
+- 介護責任: なし
+- 世帯収入: 共働き(主な稼ぎ手)
+- 居住形態: 持ち家
+- 奨学金: 返済済み
+- 住宅ローン: あり（負担重い）
+- 通勤時間: 30～60分
+- 最終学歴: 大学
+- 病院種類: 公立病院
+- 病床機能: 急性期
+- 病院規模: 100～200床未満
+- 診療科: 内科系
+- 夜勤形態: 2交代
+- 異動頻度の経験: 少ない
+- 現在の役割: スタッフ
+- 専門・認定取得の現実性: 低
+- 看護資格: なし
+- 年収: 550
+- 月平均残業時間: 10-30時間
+- 有給取得率: 50-79%
+- 受け持ち患者数: 適正
+- 上司との関係: 普通
+- 同僚との関係: 良好
+- 経済的不安: 中
+- 身体的疲労の蓄積: 中
+- 仕事と家庭の両立困難感: 中
+- バーンアウト傾向: 5
+- ワークエンゲージメント: 7
+- 職務満足度: 6
+- 組織コミットメント: 5
+- 自己効力感: 6
+- 給与感度: 7
+- 業務量耐性: 6
+- 異動柔軟性: 4
+- キャリア志向: 5
+- 上司支援の必要度: 6
+- 現状満足度: 6
+
+
+## 選択:
+[
+    {
+        "Choice1": {
+            "1A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "1B": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice2": {
+            "2A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "2B": {
+                "給与": "＋3万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice3": {
+            "3A": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "3B": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice4": {
+            "4A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "4B": {
+                "給与": "現状",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice5": {
+            "5A": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            },
+            "5B": {
+                "給与": "＋3万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice6": {
+            "6A": {
+                "給与": "＋1万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "6B": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice7": {
+            "7A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "7B": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice8": {
+            "8A": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "8B": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    }
+]
+2025-12-21 15:44:38 - DEBUG - lib.log - GeminiRESPONSEE: sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text="""{
+    "Choice1.reason": "＋3万円の給与増は住宅ローン負担の軽減に直結するため、業務負担増よりも優先度が高いから。",
+    "Choice1.choice": "1B",
+    "Choice2.reason": "強制異動は大きな負担だが、＋3万円という大幅な昇給は経済的な不安を解消するために魅力的だから。",
+    "Choice2.choice": "2B",
+    "Choice3.reason": "強制異動という状況下では、業務負担の軽減と相談しやすい上司の存在が、新しい環境への適応と家庭との両立を支える上で最も重要だから。",
+    "Choice3.choice": "3A",
+    "Choice4.reason": "昇給、希望通りの異動、相談しやすい上司という3つの好条件が揃っており、経済的、精神的安定の両方を得られるから。",
+    "Choice4.choice": "4A",
+    "Choice5.reason": "＋3万円の大幅な昇給がありながら、業務負担が増えず現状を維持できるため、家庭との両立が最も容易だから。",
+    "Choice5.choice": "5A",
+    "Choice6.reason": "わずかな昇給のために強制異動のリスクを負うより、給与が現状維持でも希望通りに異動できる予測可能性と安定性を重視するから。",
+    "Choice6.choice": "6B",
+    "Choice7.reason": "業務負担が増えずに給与が上がるため、未就学児の育児との両立を考えた際に最も現実的で負担が少ない選択だから。",
+    "Choice7.choice": "7B",
+    "Choice8.reason": "同じ昇給額であれば、業務負担が多少増えても、相談しやすい上司がいる精神的な安心感と、看護以外の業務が減る実利を優先するから。",
+    "Choice8.choice": "8A"
+}"""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-pro' prompt_feedback=None response_id='WJdHadLHA5TFvr0PormK-AU' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=437,
+  prompt_token_count=2141,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=2141
+    ),
+  ],
+  thoughts_token_count=4427,
+  total_token_count=7005
+) automatic_function_calling_history=[] parsed=None
+2025-12-21 15:44:38 - INFO - lib.log - Gemini usage: {'prompt_tokens': 2141, 'completion_tokens': 437, 'total_tokens': 7005}
+2025-12-21 15:44:38 - INFO - lib.log - Generated persona id=3: N/A
+2025-12-21 15:44:38 - INFO - lib.log - Generating persona id=4
+2025-12-21 15:44:38 - INFO - lib.log - Gemini generate_json: model=models/gemini-2.5-pro
+2025-12-21 15:44:38 - DEBUG - lib.log - Gemini SYSTEM: あなたは現在、日本の病院で働く看護師のプロファイラーです。
+最後に指定する **【個人プロファイル】**になりきって、「選択」に提示された8つのChoicesの中から、
+AとBのうち、どちらで働きたいか、まず理由を考えて、その後選択してください。
+
+## 制約：
+- 出力は必ずJSONオブジェクトのみとし、前後に説明文なし
+- 与えられた個人プロファイルと矛盾しないようにしてください
+
+
+## 出力形式：
+{
+    "Choice1.reason": "給与がよいから",
+    "Choice1.choice": "1A",
+    "Choice2.reason": "専門性重視",
+    "Choice2.choice": "1B",
+    ...
+}
+
+2025-12-21 15:44:38 - DEBUG - lib.log - Gemini USER: 以下の【個人プロファイル】を持つ看護師について、「選択」に提示された8つのChoicesの中から、AとBのうち、どちらで働きたいか、その理由を考え、
+どちらかを選択してください。
+
+## 【個人プロファイル】
+- id: 4
+- 性別: 女性
+- 年齢: 29
+- 都道府県: 愛知県
+- 看護師経験年数: 7
+- 都市人口: 5～20万人
+- 婚姻状況: 未婚
+- 子供の人数: 0
+- 下の子ども: なし
+- 介護責任: なし
+- 世帯収入: 単独
+- 居住形態: 賃貸
+- 奨学金: 返済中
+- 住宅ローン: なし
+- 通勤時間: 15～30分
+- 最終学歴: 専門学校
+- 病院種類: 民間急性期
+- 病床機能: 急性期
+- 病院規模: 100～200床未満
+- 診療科: 内科系
+- 夜勤形態: 3交代
+- 異動頻度の経験: 少ない
+- 現在の役割: スタッフ
+- 専門・認定取得の現実性: 高
+- 看護資格: なし
+- 年収: 450
+- 月平均残業時間: 10-30時間
+- 有給取得率: 50-79%
+- 受け持ち患者数: 適正
+- 上司との関係: 普通
+- 同僚との関係: 良好
+- 経済的不安: 中
+- 身体的疲労の蓄積: 中
+- 仕事と家庭の両立困難感: 低
+- バーンアウト傾向: 4
+- ワークエンゲージメント: 8
+- 職務満足度: 7
+- 組織コミットメント: 6
+- 自己効力感: 7
+- 給与感度: 5
+- 業務量耐性: 6
+- 異動柔軟性: 5
+- キャリア志向: 8
+- 上司支援の必要度: 4
+- 現状満足度: 6
+
+
+## 選択:
+[
+    {
+        "Choice1": {
+            "1A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "1B": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice2": {
+            "2A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "2B": {
+                "給与": "＋3万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice3": {
+            "3A": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "3B": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice4": {
+            "4A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "4B": {
+                "給与": "現状",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice5": {
+            "5A": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            },
+            "5B": {
+                "給与": "＋3万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice6": {
+            "6A": {
+                "給与": "＋1万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "6B": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice7": {
+            "7A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "7B": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice8": {
+            "8A": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "8B": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    }
+]
+2025-12-21 15:45:15 - DEBUG - lib.log - GeminiRESPONSEE: sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text="""{
+    "Choice1.reason": "奨学金返済のため、給与3万円アップは非常に魅力的。業務負担増は自身の経験と能力でカバーできると判断したため。",
+    "Choice1.choice": "1B",
+    "Choice2.reason": "給与3万円アップが最優先。強制異動は不本意だが、キャリア志向が高いため新しい環境での経験もプラスと捉えることができるため。",
+    "Choice2.choice": "2B",
+    "Choice3.reason": "専門性を高めるためのキャリア支援が手厚い。業務負担が減ることで、資格取得の学習に集中できる環境は魅力的だから。",
+    "Choice3.choice": "3A",
+    "Choice4.reason": "将来のキャリアアップに繋がる50%の費用援助が最も重要。業務負担が減るため、資格の勉強に時間を使えるから。",
+    "Choice4.choice": "4B",
+    "Choice5.reason": "給与増とキャリア支援という最も重視する2つの条件を満たしている。業務負担も増えないため、最もバランスが良い。",
+    "Choice5.choice": "5A",
+    "Choice6.reason": "どちらも魅力的ではないが、強制異動はキャリアプランに影響するため、希望が通る方を選択する。",
+    "Choice6.choice": "6B",
+    "Choice7.reason": "給与が上がり、業務負担は現状維持のまま手厚いキャリア支援を受けられるため、総合的に見て最も条件が良い。",
+    "Choice7.choice": "7B",
+    "Choice8.reason": "手厚いキャリア支援と相談しやすい上司の存在は、キャリアアップを目指す上で非常に重要。業務負担増を上回る魅力があるため。",
+    "Choice8.choice": "8A"
+}"""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-pro' prompt_feedback=None response_id='fZdHaeONDvGFvr0P-q638QY' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=418,
+  prompt_token_count=2129,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=2129
+    ),
+  ],
+  thoughts_token_count=4248,
+  total_token_count=6795
+) automatic_function_calling_history=[] parsed=None
+2025-12-21 15:45:15 - INFO - lib.log - Gemini usage: {'prompt_tokens': 2129, 'completion_tokens': 418, 'total_tokens': 6795}
+2025-12-21 15:45:15 - INFO - lib.log - Generated persona id=4: N/A
+2025-12-21 15:45:15 - INFO - lib.log - Generating persona id=5
+2025-12-21 15:45:15 - INFO - lib.log - Gemini generate_json: model=models/gemini-2.5-pro
+2025-12-21 15:45:15 - DEBUG - lib.log - Gemini SYSTEM: あなたは現在、日本の病院で働く看護師のプロファイラーです。
+最後に指定する **【個人プロファイル】**になりきって、「選択」に提示された8つのChoicesの中から、
+AとBのうち、どちらで働きたいか、まず理由を考えて、その後選択してください。
+
+## 制約：
+- 出力は必ずJSONオブジェクトのみとし、前後に説明文なし
+- 与えられた個人プロファイルと矛盾しないようにしてください
+
+
+## 出力形式：
+{
+    "Choice1.reason": "給与がよいから",
+    "Choice1.choice": "1A",
+    "Choice2.reason": "専門性重視",
+    "Choice2.choice": "1B",
+    ...
+}
+
+2025-12-21 15:45:15 - DEBUG - lib.log - Gemini USER: 以下の【個人プロファイル】を持つ看護師について、「選択」に提示された8つのChoicesの中から、AとBのうち、どちらで働きたいか、その理由を考え、
+どちらかを選択してください。
+
+## 【個人プロファイル】
+- id: 5
+- 性別: 女性
+- 年齢: 27
+- 都道府県: 愛知県
+- 看護師経験年数: 5
+- 都市人口: 50万人～
+- 婚姻状況: 未婚
+- 子供の人数: 0
+- 下の子ども: なし
+- 介護責任: なし
+- 世帯収入: 単独
+- 居住形態: 賃貸
+- 奨学金: 返済中
+- 住宅ローン: なし
+- 通勤時間: 30～60分
+- 最終学歴: 大学
+- 病院種類: 民間急性期
+- 病床機能: 急性期
+- 病院規模: 100～200床未満
+- 診療科: 内科系
+- 夜勤形態: 3交代
+- 異動頻度の経験: 少ない
+- 現在の役割: スタッフ
+- 専門・認定取得の現実性: 高
+- 看護資格: なし
+- 年収: 400
+- 月平均残業時間: 10-30時間
+- 有給取得率: 50-79%
+- 受け持ち患者数: 適正
+- 上司との関係: 普通
+- 同僚との関係: 良好
+- 経済的不安: 中
+- 身体的疲労の蓄積: 中
+- 仕事と家庭の両立困難感: 低
+- バーンアウト傾向: 4
+- ワークエンゲージメント: 7
+- 職務満足度: 6
+- 組織コミットメント: 5
+- 自己効力感: 8
+- 給与感度: 6
+- 業務量耐性: 7
+- 異動柔軟性: 5
+- キャリア志向: 8
+- 上司支援の必要度: 4
+- 現状満足度: 6
+
+
+## 選択:
+[
+    {
+        "Choice1": {
+            "1A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "1B": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice2": {
+            "2A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "2B": {
+                "給与": "＋3万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice3": {
+            "3A": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "3B": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice4": {
+            "4A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "4B": {
+                "給与": "現状",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice5": {
+            "5A": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            },
+            "5B": {
+                "給与": "＋3万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice6": {
+            "6A": {
+                "給与": "＋1万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "6B": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice7": {
+            "7A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "7B": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice8": {
+            "8A": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "8B": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    }
+]
+2025-12-21 15:45:49 - DEBUG - lib.log - GeminiRESPONSEE: sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text="""{
+    "Choice1.reason": "給与が3万円増加することは、奨学金返済中の身として経済的な不安を大きく軽減してくれるため。業務量耐性は高いため、受け持ち患者の増加は許容範囲内と判断します。",
+    "Choice1.choice": "1B",
+    "Choice2.reason": "3万円の給与アップは非常に魅力的です。キャリア支援も2割あるため、強制異動は新しい経験を積むキャリアアップの機会と前向きに捉えることができます。",
+    "Choice2.choice": "2B",
+    "Choice3.reason": "キャリア志向が非常に高いため、半額の費用援助は最も魅力的です。業務負担が減ることで、専門・認定看護師の資格取得に向けた学習時間を確保しやすくなります。",
+    "Choice3.choice": "3A",
+    "Choice4.reason": "キャリアアップを最優先に考えているため、給与アップよりも半額のキャリア支援を選びます。業務負担が減ることで、自己投資の時間を確保できる点も重要です。",
+    "Choice4.choice": "4B",
+    "Choice5.reason": "給与が3万円上がり、キャリア支援も半額受けられるという、経済面とキャリア面の両方を満たす最もバランスの取れた選択肢だからです。現状の環境で安定して目標を追求できます。",
+    "Choice5.choice": "5A",
+    "Choice6.reason": "どちらもキャリア支援がなく魅力的ではありませんが、強制異動というキャリアパスの自由を奪われる選択は避けたいため、希望が通る方を選びます。",
+    "Choice6.choice": "6B",
+    "Choice7.reason": "給与が上がり、業務負担は現状維持、さらに手厚いキャリア支援も受けられるため。全ての条件が現状より改善されており、理想的な選択肢です。",
+    "Choice7.choice": "7B",
+    "Choice8.reason": "キャリア志向が強いため、2割よりも手厚い50%のキャリア支援を優先します。業務量が増えても、相談しやすい上司がいる環境であれば、モチベーションを維持して乗り越えられます。",
+    "Choice8.choice": "8A"
+}"""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-pro' prompt_feedback=None response_id='npdHaYeFOPqzvr0Prf-lkQs' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=507,
+  prompt_token_count=2126,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=2126
+    ),
+  ],
+  thoughts_token_count=3731,
+  total_token_count=6364
+) automatic_function_calling_history=[] parsed=None
+2025-12-21 15:45:49 - INFO - lib.log - Gemini usage: {'prompt_tokens': 2126, 'completion_tokens': 507, 'total_tokens': 6364}
+2025-12-21 15:45:49 - INFO - lib.log - Generated persona id=5: N/A
+2025-12-21 15:45:49 - INFO - lib.log - Generating persona id=6
+2025-12-21 15:45:49 - INFO - lib.log - Gemini generate_json: model=models/gemini-2.5-pro
+2025-12-21 15:45:49 - DEBUG - lib.log - Gemini SYSTEM: あなたは現在、日本の病院で働く看護師のプロファイラーです。
+最後に指定する **【個人プロファイル】**になりきって、「選択」に提示された8つのChoicesの中から、
+AとBのうち、どちらで働きたいか、まず理由を考えて、その後選択してください。
+
+## 制約：
+- 出力は必ずJSONオブジェクトのみとし、前後に説明文なし
+- 与えられた個人プロファイルと矛盾しないようにしてください
+
+
+## 出力形式：
+{
+    "Choice1.reason": "給与がよいから",
+    "Choice1.choice": "1A",
+    "Choice2.reason": "専門性重視",
+    "Choice2.choice": "1B",
+    ...
+}
+
+2025-12-21 15:45:49 - DEBUG - lib.log - Gemini USER: 以下の【個人プロファイル】を持つ看護師について、「選択」に提示された8つのChoicesの中から、AとBのうち、どちらで働きたいか、その理由を考え、
+どちらかを選択してください。
+
+## 【個人プロファイル】
+- id: 6
+- 性別: 男性
+- 年齢: 27
+- 都道府県: 香川県
+- 看護師経験年数: 5
+- 都市人口: 5～20万人
+- 婚姻状況: 未婚
+- 子供の人数: 0
+- 下の子ども: なし
+- 介護責任: なし
+- 世帯収入: 単独
+- 居住形態: 賃貸
+- 奨学金: 返済中
+- 住宅ローン: なし
+- 通勤時間: 30～60分
+- 最終学歴: 専門学校
+- 病院種類: 民間急性期
+- 病床機能: 急性期
+- 病院規模: 100～200床未満
+- 診療科: 内科系
+- 夜勤形態: 3交代
+- 異動頻度の経験: 少ない
+- 現在の役割: スタッフ
+- 専門・認定取得の現実性: 高
+- 看護資格: なし
+- 年収: 450
+- 月平均残業時間: 10-30時間
+- 有給取得率: 50%未満
+- 受け持ち患者数: 適正
+- 上司との関係: 普通
+- 同僚との関係: 良好
+- 経済的不安: 中
+- 身体的疲労の蓄積: 中
+- 仕事と家庭の両立困難感: 低
+- バーンアウト傾向: 3
+- ワークエンゲージメント: 7
+- 職務満足度: 6
+- 組織コミットメント: 5
+- 自己効力感: 6
+- 給与感度: 4
+- 業務量耐性: 7
+- 異動柔軟性: 5
+- キャリア志向: 8
+- 上司支援の必要度: 4
+- 現状満足度: 6
+
+
+## 選択:
+[
+    {
+        "Choice1": {
+            "1A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "1B": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice2": {
+            "2A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "2B": {
+                "給与": "＋3万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice3": {
+            "3A": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "3B": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice4": {
+            "4A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "4B": {
+                "給与": "現状",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice5": {
+            "5A": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            },
+            "5B": {
+                "給与": "＋3万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice6": {
+            "6A": {
+                "給与": "＋1万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "6B": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice7": {
+            "7A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "7B": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice8": {
+            "8A": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "8B": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    }
+]
+2025-12-21 15:46:17 - DEBUG - lib.log - GeminiRESPONSEE: sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text="""{
+    "Choice1.reason": "月3万円の給与増は奨学金返済中の身として魅力的。業務量耐性は高いため、患者数の増加は許容範囲内と判断した。",
+    "Choice1.choice": "1B",
+    "Choice2.reason": "3万円の給与増は経済的不安を軽減する上で大きい。キャリア志向が高いため、強制異動も新たな経験を積む機会と捉えることができる。",
+    "Choice2.choice": "2B",
+    "Choice3.reason": "キャリア志向が強いため、費用の半額援助は非常に魅力的。看護以外の業務が減ることで、専門性を高めるための学習や業務に集中できる。",
+    "Choice3.choice": "3B",
+    "Choice4.reason": "キャリア志向が非常に高いため、費用半額援助は資格取得など将来の目標達成に不可欠。わずかな昇給よりもキャリアへの投資を優先する。",
+    "Choice4.choice": "4B",
+    "Choice5.reason": "給与3万円増とキャリア支援半額という両方の好条件が揃っている。業務負担が増えないため、心身のバランスを保ちながらキャリアアップを目指せる。",
+    "Choice5.choice": "5A",
+    "Choice6.reason": "強制異動を伴うわずかな給与増よりも、自身の希望通りにキャリアパスを選択できる環境を優先する。",
+    "Choice6.choice": "6B",
+    "Choice7.reason": "キャリア支援と希望通りの異動が両立できる上で、給与が増え、業務負担も現状維持であるため、最もバランスが良い選択肢だと考えた。",
+    "Choice7.choice": "7B",
+    "Choice8.reason": "手厚いキャリア支援（費用半額援助）はキャリア志向の高い自身にとって最優先事項。業務負担増は許容範囲内であり、看護以外の業務が減る点も専門性向上に繋がる。",
+    "Choice8.choice": "8A"
+}"""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-pro' prompt_feedback=None response_id='updHae2iNIrQ1e8P6s70sAE' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=466,
+  prompt_token_count=2128,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=2128
+    ),
+  ],
+  thoughts_token_count=2963,
+  total_token_count=5557
+) automatic_function_calling_history=[] parsed=None
+2025-12-21 15:46:17 - INFO - lib.log - Gemini usage: {'prompt_tokens': 2128, 'completion_tokens': 466, 'total_tokens': 5557}
+2025-12-21 15:46:17 - INFO - lib.log - Generated persona id=6: N/A
+2025-12-21 15:46:17 - INFO - lib.log - Generating persona id=7
+2025-12-21 15:46:17 - INFO - lib.log - Gemini generate_json: model=models/gemini-2.5-pro
+2025-12-21 15:46:17 - DEBUG - lib.log - Gemini SYSTEM: あなたは現在、日本の病院で働く看護師のプロファイラーです。
+最後に指定する **【個人プロファイル】**になりきって、「選択」に提示された8つのChoicesの中から、
+AとBのうち、どちらで働きたいか、まず理由を考えて、その後選択してください。
+
+## 制約：
+- 出力は必ずJSONオブジェクトのみとし、前後に説明文なし
+- 与えられた個人プロファイルと矛盾しないようにしてください
+
+
+## 出力形式：
+{
+    "Choice1.reason": "給与がよいから",
+    "Choice1.choice": "1A",
+    "Choice2.reason": "専門性重視",
+    "Choice2.choice": "1B",
+    ...
+}
+
+2025-12-21 15:46:17 - DEBUG - lib.log - Gemini USER: 以下の【個人プロファイル】を持つ看護師について、「選択」に提示された8つのChoicesの中から、AとBのうち、どちらで働きたいか、その理由を考え、
+どちらかを選択してください。
+
+## 【個人プロファイル】
+- id: 7
+- 性別: 女性
+- 年齢: 25
+- 都道府県: 神奈川県
+- 看護師経験年数: 3
+- 都市人口: 20～50万人
+- 婚姻状況: 未婚
+- 子供の人数: 0
+- 下の子ども: なし
+- 介護責任: なし
+- 世帯収入: 単独
+- 居住形態: 賃貸
+- 奨学金: 返済中
+- 住宅ローン: なし
+- 通勤時間: 30～60分
+- 最終学歴: 専門学校
+- 病院種類: 民間急性期
+- 病床機能: 急性期
+- 病院規模: 100～200床未満
+- 診療科: 内科系
+- 夜勤形態: 3交代
+- 異動頻度の経験: 少ない
+- 現在の役割: スタッフ
+- 専門・認定取得の現実性: 高
+- 看護資格: なし
+- 年収: 400
+- 月平均残業時間: 10-30時間
+- 有給取得率: 50%未満
+- 受け持ち患者数: 適正
+- 上司との関係: 普通
+- 同僚との関係: 良好
+- 経済的不安: 中
+- 身体的疲労の蓄積: 高
+- 仕事と家庭の両立困難感: 低
+- バーンアウト傾向: 3
+- ワークエンゲージメント: 7
+- 職務満足度: 6
+- 組織コミットメント: 5
+- 自己効力感: 6
+- 給与感度: 5
+- 業務量耐性: 6
+- 異動柔軟性: 4
+- キャリア志向: 8
+- 上司支援の必要度: 3
+- 現状満足度: 6
+
+
+## 選択:
+[
+    {
+        "Choice1": {
+            "1A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "1B": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice2": {
+            "2A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "2B": {
+                "給与": "＋3万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice3": {
+            "3A": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "3B": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice4": {
+            "4A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "4B": {
+                "給与": "現状",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice5": {
+            "5A": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            },
+            "5B": {
+                "給与": "＋3万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice6": {
+            "6A": {
+                "給与": "＋1万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "6B": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice7": {
+            "7A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "7B": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice8": {
+            "8A": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "8B": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    }
+]
+2025-12-21 15:46:49 - DEBUG - lib.log - GeminiRESPONSEE: sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text="""{
+    "Choice1.reason": "身体的疲労が高いため、給与が増えても業務負担が増えるよりは、看護以外の業務が減り上司に相談しやすい環境の方が望ましいから。",
+    "Choice1.choice": "1A",
+    "Choice2.reason": "強制異動はキャリアプランに影響するため避けたい。給与の上がり幅は少ないが、異動の希望が通る方を優先するから。",
+    "Choice2.choice": "2A",
+    "Choice3.reason": "キャリア志向が高いため、費用の半額援助は非常に魅力的。強制異動は不本意だが、看護以外の業務が半減することで専門業務に集中できるため。",
+    "Choice3.choice": "3B",
+    "Choice4.reason": "キャリアアップを最優先に考えており、費用の半額援助は非常に魅力的。また、身体的疲労が高いため、業務負担の軽減も重要な要素だから。",
+    "Choice4.choice": "4B",
+    "Choice5.reason": "給与が3万円上がり、キャリア支援も半額受けられる点が良い。現状の業務負担で既に身体的疲労は高いため、これ以上負担が増えるのは避けたいから。",
+    "Choice5.choice": "5A",
+    "Choice6.reason": "強制異動は避けたい。給与は上がらないが、希望の部署で働き続けられる方が精神的な負担が少ないから。",
+    "Choice6.choice": "6B",
+    "Choice7.reason": "キャリア支援を受けられ、異動の希望も通る上で、給与が上がり業務負担も増えないため、最もバランスが良い選択肢だから。",
+    "Choice7.choice": "7B",
+    "Choice8.reason": "キャリア支援が手厚く、上司にも相談しやすい環境が魅力的。看護以外の業務が減ることで、増える受け持ち患者のケアに集中できると考えるから。",
+    "Choice8.choice": "8A"
+}"""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-pro' prompt_feedback=None response_id='2pdHaa-aLJXDvr0P_9aEQA' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=457,
+  prompt_token_count=2129,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=2129
+    ),
+  ],
+  thoughts_token_count=3298,
+  total_token_count=5884
+) automatic_function_calling_history=[] parsed=None
+2025-12-21 15:46:49 - INFO - lib.log - Gemini usage: {'prompt_tokens': 2129, 'completion_tokens': 457, 'total_tokens': 5884}
+2025-12-21 15:46:49 - INFO - lib.log - Generated persona id=7: N/A
+2025-12-21 15:46:49 - INFO - lib.log - Generating persona id=8
+2025-12-21 15:46:49 - INFO - lib.log - Gemini generate_json: model=models/gemini-2.5-pro
+2025-12-21 15:46:49 - DEBUG - lib.log - Gemini SYSTEM: あなたは現在、日本の病院で働く看護師のプロファイラーです。
+最後に指定する **【個人プロファイル】**になりきって、「選択」に提示された8つのChoicesの中から、
+AとBのうち、どちらで働きたいか、まず理由を考えて、その後選択してください。
+
+## 制約：
+- 出力は必ずJSONオブジェクトのみとし、前後に説明文なし
+- 与えられた個人プロファイルと矛盾しないようにしてください
+
+
+## 出力形式：
+{
+    "Choice1.reason": "給与がよいから",
+    "Choice1.choice": "1A",
+    "Choice2.reason": "専門性重視",
+    "Choice2.choice": "1B",
+    ...
+}
+
+2025-12-21 15:46:49 - DEBUG - lib.log - Gemini USER: 以下の【個人プロファイル】を持つ看護師について、「選択」に提示された8つのChoicesの中から、AとBのうち、どちらで働きたいか、その理由を考え、
+どちらかを選択してください。
+
+## 【個人プロファイル】
+- id: 8
+- 性別: 女性
+- 年齢: 41
+- 都道府県: 高知県
+- 看護師経験年数: 19
+- 都市人口: 5～20万人
+- 婚姻状況: 既婚
+- 子供の人数: 2
+- 下の子ども: 小学生
+- 介護責任: なし
+- 世帯収入: 共働き(主な稼ぎ手)
+- 居住形態: 賃貸
+- 奨学金: 返済済み
+- 住宅ローン: なし
+- 通勤時間: 30～60分
+- 最終学歴: 専門学校
+- 病院種類: 公立病院
+- 病床機能: 急性期
+- 病院規模: 100～200床未満
+- 診療科: 内科系
+- 夜勤形態: 3交代
+- 異動頻度の経験: 少ない
+- 現在の役割: スタッフ
+- 専門・認定取得の現実性: 低
+- 看護資格: なし
+- 年収: 450
+- 月平均残業時間: 10-30時間
+- 有給取得率: 50-79%
+- 受け持ち患者数: 適正
+- 上司との関係: 普通
+- 同僚との関係: 良好
+- 経済的不安: 中
+- 身体的疲労の蓄積: 中
+- 仕事と家庭の両立困難感: 中
+- バーンアウト傾向: 6
+- ワークエンゲージメント: 7
+- 職務満足度: 6
+- 組織コミットメント: 5
+- 自己効力感: 6
+- 給与感度: 7
+- 業務量耐性: 5
+- 異動柔軟性: 4
+- キャリア志向: 6
+- 上司支援の必要度: 5
+- 現状満足度: 6
+
+
+## 選択:
+[
+    {
+        "Choice1": {
+            "1A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "1B": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice2": {
+            "2A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "2B": {
+                "給与": "＋3万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice3": {
+            "3A": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "3B": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice4": {
+            "4A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "4B": {
+                "給与": "現状",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice5": {
+            "5A": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            },
+            "5B": {
+                "給与": "＋3万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice6": {
+            "6A": {
+                "給与": "＋1万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "6B": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice7": {
+            "7A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "7B": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice8": {
+            "8A": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "8B": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    }
+]
+2025-12-21 15:47:20 - DEBUG - lib.log - GeminiRESPONSEE: sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text="""{
+    "Choice1.reason": "給与が3万円上がることは、主な稼ぎ手であり経済的不安があるため非常に魅力的。看護以外の業務が半減するため、受け持ち患者が増えても業務量のバランスは取れると判断した。",
+    "Choice1.choice": "1B",
+    "Choice2.reason": "強制異動は子供の学校などを考えると受け入れられない。給与増は少ないが、異動の希望が通る方が重要。",
+    "Choice2.choice": "2A",
+    "Choice3.reason": "どちらも強制異動は望ましくないが、選ぶなら受け持ち患者が減り、上司からの手厚いサポートがある方が、異動に伴うストレスを軽減できると考えるため。",
+    "Choice3.choice": "3A",
+    "Choice4.reason": "月1万円でも給与が上がることと、上司に相談しやすい環境は精神的な安定につながるため。業務負担の軽減よりも経済的・精神的安定を優先する。",
+    "Choice4.choice": "4A",
+    "Choice5.reason": "給与が3万円上がる上に、業務負担が増えないことが最大の魅力。仕事と家庭の両立を考えると、業務量が増えることは避けたい。",
+    "Choice5.choice": "5A",
+    "Choice6.reason": "強制異動は絶対に避けたい。給与アップや業務負担軽減よりも、現在の場所で働き続けられる安定性を選択する。",
+    "Choice6.choice": "6B",
+    "Choice7.reason": "給与が上がり、かつ業務負担は現状維持であるため。看護以外の業務が減ることで、実質的な負担は軽減される。仕事と家庭の両立がしやすくなる。",
+    "Choice7.choice": "7B",
+    "Choice8.reason": "受け持ち患者は増えるが、看護以外の業務が半減し、上司のサポートも手厚いため、精神的な負担は少ないと判断。総合的に働きやすい環境だと感じる。",
+    "Choice8.choice": "8A"
+}"""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-pro' prompt_feedback=None response_id='-pdHaee1ELOwvr0PjMGb0Qk' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=472,
+  prompt_token_count=2136,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=2136
+    ),
+  ],
+  thoughts_token_count=3506,
+  total_token_count=6114
+) automatic_function_calling_history=[] parsed=None
+2025-12-21 15:47:20 - INFO - lib.log - Gemini usage: {'prompt_tokens': 2136, 'completion_tokens': 472, 'total_tokens': 6114}
+2025-12-21 15:47:20 - INFO - lib.log - Generated persona id=8: N/A
+2025-12-21 15:47:20 - INFO - lib.log - Generating persona id=9
+2025-12-21 15:47:20 - INFO - lib.log - Gemini generate_json: model=models/gemini-2.5-pro
+2025-12-21 15:47:20 - DEBUG - lib.log - Gemini SYSTEM: あなたは現在、日本の病院で働く看護師のプロファイラーです。
+最後に指定する **【個人プロファイル】**になりきって、「選択」に提示された8つのChoicesの中から、
+AとBのうち、どちらで働きたいか、まず理由を考えて、その後選択してください。
+
+## 制約：
+- 出力は必ずJSONオブジェクトのみとし、前後に説明文なし
+- 与えられた個人プロファイルと矛盾しないようにしてください
+
+
+## 出力形式：
+{
+    "Choice1.reason": "給与がよいから",
+    "Choice1.choice": "1A",
+    "Choice2.reason": "専門性重視",
+    "Choice2.choice": "1B",
+    ...
+}
+
+2025-12-21 15:47:20 - DEBUG - lib.log - Gemini USER: 以下の【個人プロファイル】を持つ看護師について、「選択」に提示された8つのChoicesの中から、AとBのうち、どちらで働きたいか、その理由を考え、
+どちらかを選択してください。
+
+## 【個人プロファイル】
+- id: 9
+- 性別: 女性
+- 年齢: 23
+- 都道府県: 愛知県
+- 看護師経験年数: 1
+- 都市人口: 50万人～
+- 婚姻状況: 未婚
+- 子供の人数: 0
+- 下の子ども: なし
+- 介護責任: なし
+- 世帯収入: 単独
+- 居住形態: 賃貸
+- 奨学金: 返済中
+- 住宅ローン: なし
+- 通勤時間: 30～60分
+- 最終学歴: 専門学校
+- 病院種類: 民間急性期
+- 病床機能: 急性期
+- 病院規模: 100～200床未満
+- 診療科: 外科系
+- 夜勤形態: 3交代
+- 異動頻度の経験: 少ない
+- 現在の役割: スタッフ
+- 専門・認定取得の現実性: 高
+- 看護資格: なし
+- 年収: 400
+- 月平均残業時間: 10-30時間
+- 有給取得率: 50%未満
+- 受け持ち患者数: 適正
+- 上司との関係: 普通
+- 同僚との関係: 良好
+- 経済的不安: 中
+- 身体的疲労の蓄積: 中
+- 仕事と家庭の両立困難感: 低
+- バーンアウト傾向: 3
+- ワークエンゲージメント: 7
+- 職務満足度: 6
+- 組織コミットメント: 5
+- 自己効力感: 6
+- 給与感度: 4
+- 業務量耐性: 7
+- 異動柔軟性: 5
+- キャリア志向: 8
+- 上司支援の必要度: 4
+- 現状満足度: 6
+
+
+## 選択:
+[
+    {
+        "Choice1": {
+            "1A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "1B": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice2": {
+            "2A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "2B": {
+                "給与": "＋3万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice3": {
+            "3A": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "3B": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice4": {
+            "4A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "4B": {
+                "給与": "現状",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice5": {
+            "5A": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            },
+            "5B": {
+                "給与": "＋3万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice6": {
+            "6A": {
+                "給与": "＋1万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "6B": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice7": {
+            "7A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "7B": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice8": {
+            "8A": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "8B": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    }
+]
+2025-12-21 15:47:55 - DEBUG - lib.log - GeminiRESPONSEE: sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text="""{
+    "Choice1.reason": "経験が浅いため、給与よりも相談しやすい上司の存在が重要だと考えるから",
+    "Choice1.choice": "1A",
+    "Choice2.reason": "上司の支援がない点は同じだが、給与が3万円上がり、業務負担が現状維持である方がメリットが大きいから",
+    "Choice2.choice": "2B",
+    "Choice3.reason": "キャリア志向が強いため、手厚いキャリア支援と相談しやすい上司がおり、学習時間が確保できる業務負担軽減は非常に魅力的だから",
+    "Choice3.choice": "3A",
+    "Choice4.reason": "キャリアアップを最優先に考えているため、上司の支援がなくても、半額の費用援助と業務負担軽減がある方が望ましいから",
+    "Choice4.choice": "4B",
+    "Choice5.reason": "給与が3万円上がり、キャリア支援も受けられる上で、業務負担や異動の環境変化がないため、安定してキャリアを追求できるから",
+    "Choice5.choice": "5A",
+    "Choice6.reason": "どちらも魅力的ではないが、わずかな昇給のために強制異動を受け入れるよりは、希望通りに異動できる方が良いから",
+    "Choice6.choice": "6B",
+    "Choice7.reason": "給与が上がり、業務負担も現状のまま手厚いキャリア支援を受けられる、最もバランスの取れた選択肢だから",
+    "Choice7.choice": "7B",
+    "Choice8.reason": "キャリア志向が強いため、業務負担が増えても、手厚いキャリア支援と上司のサポートがある環境で成長したいから",
+    "Choice8.choice": "8A"
+}"""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-pro' prompt_feedback=None response_id='HJhHafuzLYfS1e8P3PS8qAI' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=404,
+  prompt_token_count=2126,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=2126
+    ),
+  ],
+  thoughts_token_count=3801,
+  total_token_count=6331
+) automatic_function_calling_history=[] parsed=None
+2025-12-21 15:47:55 - INFO - lib.log - Gemini usage: {'prompt_tokens': 2126, 'completion_tokens': 404, 'total_tokens': 6331}
+2025-12-21 15:47:55 - INFO - lib.log - Generated persona id=9: N/A
+2025-12-21 15:47:55 - INFO - lib.log - Generating persona id=10
+2025-12-21 15:47:55 - INFO - lib.log - Gemini generate_json: model=models/gemini-2.5-pro
+2025-12-21 15:47:55 - DEBUG - lib.log - Gemini SYSTEM: あなたは現在、日本の病院で働く看護師のプロファイラーです。
+最後に指定する **【個人プロファイル】**になりきって、「選択」に提示された8つのChoicesの中から、
+AとBのうち、どちらで働きたいか、まず理由を考えて、その後選択してください。
+
+## 制約：
+- 出力は必ずJSONオブジェクトのみとし、前後に説明文なし
+- 与えられた個人プロファイルと矛盾しないようにしてください
+
+
+## 出力形式：
+{
+    "Choice1.reason": "給与がよいから",
+    "Choice1.choice": "1A",
+    "Choice2.reason": "専門性重視",
+    "Choice2.choice": "1B",
+    ...
+}
+
+2025-12-21 15:47:55 - DEBUG - lib.log - Gemini USER: 以下の【個人プロファイル】を持つ看護師について、「選択」に提示された8つのChoicesの中から、AとBのうち、どちらで働きたいか、その理由を考え、
+どちらかを選択してください。
+
+## 【個人プロファイル】
+- id: 10
+- 性別: 女性
+- 年齢: 39
+- 都道府県: 山形県
+- 看護師経験年数: 17
+- 都市人口: 5～20万人
+- 婚姻状況: 既婚
+- 子供の人数: 0
+- 下の子ども: なし
+- 介護責任: なし
+- 世帯収入: 共働き(主な稼ぎ手)
+- 居住形態: 賃貸
+- 奨学金: 返済済み
+- 住宅ローン: なし
+- 通勤時間: 30～60分
+- 最終学歴: 専門学校
+- 病院種類: 公立病院
+- 病床機能: 急性期
+- 病院規模: 100～200床未満
+- 診療科: 内科系
+- 夜勤形態: 2交代
+- 異動頻度の経験: 少ない
+- 現在の役割: スタッフ
+- 専門・認定取得の現実性: 低
+- 看護資格: なし
+- 年収: 420
+- 月平均残業時間: 10-30時間
+- 有給取得率: 50-79%
+- 受け持ち患者数: 適正
+- 上司との関係: 良好
+- 同僚との関係: 普通
+- 経済的不安: 中
+- 身体的疲労の蓄積: 中
+- 仕事と家庭の両立困難感: 低
+- バーンアウト傾向: 4
+- ワークエンゲージメント: 7
+- 職務満足度: 6
+- 組織コミットメント: 5
+- 自己効力感: 6
+- 給与感度: 5
+- 業務量耐性: 8
+- 異動柔軟性: 6
+- キャリア志向: 5
+- 上司支援の必要度: 4
+- 現状満足度: 6
+
+
+## 選択:
+[
+    {
+        "Choice1": {
+            "1A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "1B": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice2": {
+            "2A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "2B": {
+                "給与": "＋3万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice3": {
+            "3A": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "3B": {
+                "給与": "現状",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice4": {
+            "4A": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "4B": {
+                "給与": "現状",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice5": {
+            "5A": {
+                "給与": "＋3万",
+                "異動希望": "現状",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            },
+            "5B": {
+                "給与": "＋3万",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "2割負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice6": {
+            "6A": {
+                "給与": "＋1万",
+                "異動希望": "強制",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            },
+            "6B": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "現状",
+                "キャリア支援": "援助なし",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    },
+    {
+        "Choice7": {
+            "7A": {
+                "給与": "現状",
+                "異動希望": "希望通り",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "7B": {
+                "給与": "＋1万",
+                "異動希望": "希望通り",
+                "業務負担": "現状",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "半年に1回面談あり必要時相談可"
+            }
+        }
+    },
+    {
+        "Choice8": {
+            "8A": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分増える",
+                "看護以外の業務": "半分負担減",
+                "キャリア支援": "費用半分援助",
+                "上司からの支援": "月1回面談あり相談しやすい"
+            },
+            "8B": {
+                "給与": "＋1万",
+                "異動希望": "現状",
+                "業務負担": "受け持ち1～2人分の負担減る",
+                "看護以外の業務": "現状",
+                "キャリア支援": "費用援助2割",
+                "上司からの支援": "面談はなく相談しづらい"
+            }
+        }
+    }
+]
+2025-12-21 15:48:28 - DEBUG - lib.log - GeminiRESPONSEE: sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text="""{
+    "Choice1.reason": "主な稼ぎ手であり経済的な不安もあるため、業務量の増加は許容範囲内として、3万円の給与アップを最優先します。",
+    "Choice1.choice": "1B",
+    "Choice2.reason": "強制異動による環境変化のストレスが大きいため、給与アップ額が少なくても希望通りの異動ができる方を選びます。",
+    "Choice2.choice": "2A",
+    "Choice3.reason": "強制異動は避けられないが、給与が変わらないなら、業務負担が減り上司のサポートが手厚い方が精神的負担が少ないため。",
+    "Choice3.choice": "3A",
+    "Choice4.reason": "業務負担軽減よりも、希望通りの異動と良好な上司との関係、そして少しでも給与が上がることを重視するため。",
+    "Choice4.choice": "4A",
+    "Choice5.reason": "同じ3万円の給与アップであれば、業務負担が増えず、上司ともある程度相談できる安定した環境を選びます。",
+    "Choice5.choice": "5A",
+    "Choice6.reason": "給与が上がらなくても、強制異動という大きなストレスを避け、自分で配属先を選べる方が望ましいと考えます。",
+    "Choice6.choice": "6B",
+    "Choice7.reason": "現在の身体的疲労を考慮すると、業務負担が増えることは避けたい。給与が上がり、上司のサポートもあるこちらを選びます。",
+    "Choice7.choice": "7B",
+    "Choice8.reason": "業務量耐性は高いため多少の負担増は許容できる。相談しづらい上司の下で働くより、サポートがある環境の方が重要です。",
+    "Choice8.choice": "8A"
+}"""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-pro' prompt_feedback=None response_id='PphHaaCLEf6mvr0P7b7suAU' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=418,
+  prompt_token_count=2138,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=2138
+    ),
+  ],
+  thoughts_token_count=3810,
+  total_token_count=6366
+) automatic_function_calling_history=[] parsed=None
+2025-12-21 15:48:28 - INFO - lib.log - Gemini usage: {'prompt_tokens': 2138, 'completion_tokens': 418, 'total_tokens': 6366}
+2025-12-21 15:48:28 - INFO - lib.log - Generated persona id=10: N/A
+2025-12-21 15:48:28 - INFO - lib.log - Output written: output\v1_dce(6).xlsx (10 records)
+2025-12-21 16:33:21 - INFO - lib.log - Loaded config: nurse_dce_v1
+2025-12-21 16:33:22 - INFO - lib.log - Using LLM: gemini (gemini-2.5-Pro)
+2025-12-21 16:33:22 - INFO - lib.log - Loading base data from Excel: output/v1_nurse(2).xlsx
+2025-12-21 16:33:22 - INFO - lib.log - Loaded 2 rows from Excel
+2025-12-21 16:33:22 - INFO - lib.log - Generating persona id=1
+2025-12-21 16:33:22 - INFO - lib.log - Gemini generate_json: model=models/gemini-2.5-pro, max_tokens=8192
+2025-12-21 16:33:22 - ERROR - lib.log - Failed to generate persona id=1: 1 validation error for GenerateContentConfig
+include_thoughts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=True, input_type=bool]
+    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden
+2025-12-21 16:33:22 - INFO - lib.log - Generating persona id=2
+2025-12-21 16:33:22 - INFO - lib.log - Gemini generate_json: model=models/gemini-2.5-pro, max_tokens=8192
+2025-12-21 16:33:22 - ERROR - lib.log - Failed to generate persona id=2: 1 validation error for GenerateContentConfig
+include_thoughts
+  Extra inputs are not permitted [type=extra_forbidden, input_value=True, input_type=bool]
+    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden
+2025-12-21 16:33:22 - INFO - lib.log - Output written: output\v1_dce(7).xlsx (2 records)

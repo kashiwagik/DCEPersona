@@ -156,7 +156,7 @@ def create_llm_client(llm_config: LLMConfig):
     Returns:
         LLMClient: 対応するLLMクライアント
     """
-    from lib.llm import AnthropicClient, OpenAIClient
+    from lib.llm import AnthropicClient, GeminiClient, OpenAIClient
 
     provider = llm_config.provider.lower()
 
@@ -171,6 +171,12 @@ def create_llm_client(llm_config: LLMConfig):
         if not api_key:
             raise ValueError("ANTHROPIC_API_KEY が設定されていません")
         return AnthropicClient(api_key=api_key, model=llm_config.model)
+
+    elif provider == "gemini":
+        api_key = os.getenv("GEMINI_PAY_API_KEY")
+        if not api_key:
+            raise ValueError("GEMINI_PAY_API_KEY が設定されていません")
+        return GeminiClient(api_key=api_key, model=llm_config.model)
 
     else:
         raise ValueError(f"未対応のプロバイダー: {provider}")

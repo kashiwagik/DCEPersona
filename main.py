@@ -79,9 +79,9 @@ def generate(
     claude Opus 4.5         Input:$2.50 Output:$12.50
     claude Sonnet 4.5       Input:$1.50 Output:$7.50
 
-    Gemini-2.5-Pro          Input:$1.25   Output:$5
-    Gemini-2.0-Flash        Input:$0.10   Output:$0.40
-    Gemini-1.5-Flash        Input:$0.10   Output:$0.40
+    gemini-2.5-pro          Input:$1.25   Output:$5
+    gemini-2.0-flash        Input:$0.10   Output:$0.40
+    gemini-1.5-flash        Input:$0.10   Output:$0.40
     """
     # 設定読み込み
     try:
